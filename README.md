@@ -1,5 +1,7 @@
 # Cursor Studio
 
+**[Live demo](https://beebopcat.github.io/cursor-studio/)** - hover any card to try that cursor in your browser.
+
 **24 Windows 11 cursor sets x 4 styles** - static `.cur` and animated `.ani`, a browser selector, a dark-mode installer, and the procedural generator that renders all 3,264 cursor files.
 
 Every set comes in four styles:
