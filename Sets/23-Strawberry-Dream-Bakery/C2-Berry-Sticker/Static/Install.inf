@@ -1,0 +1,54 @@
+; Cute - Strawberry Dream Bakery - C2 Berry Sticker (Static) - Windows 11 cursor scheme. Right-click this file > Install.
+; (Installs to C:\Windows\Cursors and needs administrator approval. The Cursor Studio app does not.)
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%arrow%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%appstarting%,%10%\%CUR_DIR%\%wait%,%10%\%CUR_DIR%\%crosshair%,%10%\%CUR_DIR%\%ibeam%,%10%\%CUR_DIR%\%nwpen%,%10%\%CUR_DIR%\%no%,%10%\%CUR_DIR%\%sizens%,%10%\%CUR_DIR%\%sizewe%,%10%\%CUR_DIR%\%sizenwse%,%10%\%CUR_DIR%\%sizenesw%,%10%\%CUR_DIR%\%sizeall%,%10%\%CUR_DIR%\%uparrow%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+
+[Scheme.Cur]
+01-NormalSelect.cur
+02-HelpSelect.cur
+03-WorkingInBackground.cur
+04-Busy.cur
+05-PrecisionSelect.cur
+06-TextSelect.cur
+07-Handwriting.cur
+08-Unavailable.cur
+09-VerticalResize.cur
+10-HorizontalResize.cur
+11-DiagonalResize1.cur
+12-DiagonalResize2.cur
+13-Move.cur
+14-AlternateSelect.cur
+15-LinkSelect.cur
+16-LocationSelect.cur
+17-PersonSelect.cur
+
+[Strings]
+CUR_DIR = "Cursors\Cute - Strawberry Dream Bakery - C2 Berry Sticker (Static)"
+SCHEME_NAME = "Cute - Strawberry Dream Bakery - C2 Berry Sticker (Static)"
+arrow = "01-NormalSelect.cur"
+help = "02-HelpSelect.cur"
+appstarting = "03-WorkingInBackground.cur"
+wait = "04-Busy.cur"
+crosshair = "05-PrecisionSelect.cur"
+ibeam = "06-TextSelect.cur"
+nwpen = "07-Handwriting.cur"
+no = "08-Unavailable.cur"
+sizens = "09-VerticalResize.cur"
+sizewe = "10-HorizontalResize.cur"
+sizenwse = "11-DiagonalResize1.cur"
+sizenesw = "12-DiagonalResize2.cur"
+sizeall = "13-Move.cur"
+uparrow = "14-AlternateSelect.cur"
+hand = "15-LinkSelect.cur"
+pin = "16-LocationSelect.cur"
+person = "17-PersonSelect.cur"

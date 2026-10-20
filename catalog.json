@@ -1,0 +1,1244 @@
+{
+  "version": 2,
+  "roles": [
+    {
+      "registry": "Arrow",
+      "label": "Normal Select",
+      "file": "01-NormalSelect"
+    },
+    {
+      "registry": "Help",
+      "label": "Help Select",
+      "file": "02-HelpSelect"
+    },
+    {
+      "registry": "AppStarting",
+      "label": "Working In Background",
+      "file": "03-WorkingInBackground"
+    },
+    {
+      "registry": "Wait",
+      "label": "Busy",
+      "file": "04-Busy"
+    },
+    {
+      "registry": "Crosshair",
+      "label": "Precision Select",
+      "file": "05-PrecisionSelect"
+    },
+    {
+      "registry": "IBeam",
+      "label": "Text Select",
+      "file": "06-TextSelect"
+    },
+    {
+      "registry": "NWPen",
+      "label": "Handwriting",
+      "file": "07-Handwriting"
+    },
+    {
+      "registry": "No",
+      "label": "Unavailable",
+      "file": "08-Unavailable"
+    },
+    {
+      "registry": "SizeNS",
+      "label": "Vertical Resize",
+      "file": "09-VerticalResize"
+    },
+    {
+      "registry": "SizeWE",
+      "label": "Horizontal Resize",
+      "file": "10-HorizontalResize"
+    },
+    {
+      "registry": "SizeNWSE",
+      "label": "Diagonal Resize 1",
+      "file": "11-DiagonalResize1"
+    },
+    {
+      "registry": "SizeNESW",
+      "label": "Diagonal Resize 2",
+      "file": "12-DiagonalResize2"
+    },
+    {
+      "registry": "SizeAll",
+      "label": "Move",
+      "file": "13-Move"
+    },
+    {
+      "registry": "UpArrow",
+      "label": "Alternate Select",
+      "file": "14-AlternateSelect"
+    },
+    {
+      "registry": "Hand",
+      "label": "Link Select",
+      "file": "15-LinkSelect"
+    },
+    {
+      "registry": "Pin",
+      "label": "Location Select",
+      "file": "16-LocationSelect"
+    },
+    {
+      "registry": "Person",
+      "label": "Person Select",
+      "file": "17-PersonSelect"
+    }
+  ],
+  "sets": [
+    {
+      "num": 1,
+      "group": "FFXIV",
+      "slug": "01-Crystal-Dawn",
+      "name": "FFXIV - Crystal Dawn",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Aetherial Glaive Relic",
+          "blurb": "Gold-filigree glaive with a cyan crystal spearhead and a shimmering blade sweep.",
+          "material": "metal",
+          "pointer": "glaive",
+          "scheme": "FFXIV - Crystal Dawn - A Aetherial Glaive Relic",
+          "path": "Sets/01-Crystal-Dawn/A-Aetherial-Glaive-Relic",
+          "preview": "Previews/01-Crystal-Dawn/A"
+        },
+        {
+          "key": "B",
+          "label": "Floating Mothercrystal",
+          "blurb": "The Mothercrystal cluster rides your pointer with orbiting aether shards and a pulsing core.",
+          "material": "facet",
+          "pointer": "mini",
+          "scheme": "FFXIV - Crystal Dawn - B Floating Mothercrystal",
+          "path": "Sets/01-Crystal-Dawn/B-Floating-Mothercrystal",
+          "preview": "Previews/01-Crystal-Dawn/B"
+        },
+        {
+          "key": "C",
+          "label": "Eorzean Silver Gauntlet",
+          "blurb": "Armored paladin gauntlet pointer with a glowing cyan fingertip aura.",
+          "material": "metal",
+          "pointer": "gauntlet",
+          "scheme": "FFXIV - Crystal Dawn - C Eorzean Silver Gauntlet",
+          "path": "Sets/01-Crystal-Dawn/C-Eorzean-Silver-Gauntlet",
+          "preview": "Previews/01-Crystal-Dawn/C"
+        },
+        {
+          "key": "C2",
+          "label": "Crystal HUD Pixel",
+          "blurb": "16-bit Eorzean menu-cursor pixel art with a blinking aether crystal.",
+          "material": "pixel",
+          "pointer": "classic",
+          "scheme": "FFXIV - Crystal Dawn - C2 Crystal HUD Pixel",
+          "path": "Sets/01-Crystal-Dawn/C2-Crystal-HUD-Pixel",
+          "preview": "Previews/01-Crystal-Dawn/C2"
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "group": "FFXIV",
+      "slug": "02-Chocobo-Caravan",
+      "name": "FFXIV - Chocobo Caravan",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Golden Plume Blade",
+          "blurb": "Feathered bronze-and-gold pointer with a glowing amber gem.",
+          "material": "gloss",
+          "pointer": "feather",
+          "scheme": "FFXIV - Chocobo Caravan - A Golden Plume Blade",
+          "path": "Sets/02-Chocobo-Caravan/A-Golden-Plume-Blade",
+          "preview": "Previews/02-Chocobo-Caravan/A"
+        },
+        {
+          "key": "B",
+          "label": "Chocobo Mascot",
+          "blurb": "A bare-headed golden chocobo (no hat) bobbing beside your pointer, crest feathers fluttering.",
+          "material": "gloss",
+          "pointer": "mini",
+          "scheme": "FFXIV - Chocobo Caravan - B Chocobo Mascot",
+          "path": "Sets/02-Chocobo-Caravan/B-Chocobo-Mascot",
+          "preview": "Previews/02-Chocobo-Caravan/B"
+        },
+        {
+          "key": "C",
+          "label": "Caravan Tack Gauntlet",
+          "blurb": "Studded leather bracer gauntlet with a golden chocobo emblem.",
+          "material": "metal",
+          "pointer": "gauntlet",
+          "scheme": "FFXIV - Chocobo Caravan - C Caravan Tack Gauntlet",
+          "path": "Sets/02-Chocobo-Caravan/C-Caravan-Tack-Gauntlet",
+          "preview": "Previews/02-Chocobo-Caravan/C"
+        },
+        {
+          "key": "C2",
+          "label": "Pixel Chocobo Caravan",
+          "blurb": "16-bit JRPG sprites: a hatless pixel chocobo and a rolling caravan wheel.",
+          "material": "pixel",
+          "pointer": "blunt",
+          "scheme": "FFXIV - Chocobo Caravan - C2 Pixel Chocobo Caravan",
+          "path": "Sets/02-Chocobo-Caravan/C2-Pixel-Chocobo-Caravan",
+          "preview": "Previews/02-Chocobo-Caravan/C2"
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "group": "FFXIV",
+      "slug": "03-Void-and-Moon",
+      "name": "FFXIV - Void and Moon",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Abyssal Voidblade",
+          "blurb": "Obsidian-and-gold reaper dagger infused with pulsing purple voidlight.",
+          "material": "metal",
+          "pointer": "dagger",
+          "scheme": "FFXIV - Void and Moon - A Abyssal Voidblade",
+          "path": "Sets/03-Void-and-Moon/A-Abyssal-Voidblade",
+          "preview": "Previews/03-Void-and-Moon/A"
+        },
+        {
+          "key": "B",
+          "label": "Lunar Eclipse Avatar",
+          "blurb": "A grinning purple crescent moon with a glowing crimson void eye.",
+          "material": "gloss",
+          "pointer": "mini",
+          "scheme": "FFXIV - Void and Moon - B Lunar Eclipse Avatar",
+          "path": "Sets/03-Void-and-Moon/B-Lunar-Eclipse-Avatar",
+          "preview": "Previews/03-Void-and-Moon/B"
+        },
+        {
+          "key": "C",
+          "label": "Arcane Void Reticle",
+          "blurb": "Rotating runic spell circle with a violet target spear in neon HUD light.",
+          "material": "neon",
+          "pointer": "spear",
+          "scheme": "FFXIV - Void and Moon - C Arcane Void Reticle",
+          "path": "Sets/03-Void-and-Moon/C-Arcane-Void-Reticle",
+          "preview": "Previews/03-Void-and-Moon/C"
+        },
+        {
+          "key": "C2",
+          "label": "Void Pixel",
+          "blurb": "Retro pixel crescent and void-gate sprites in deep violet.",
+          "material": "pixel",
+          "pointer": "wisp",
+          "scheme": "FFXIV - Void and Moon - C2 Void Pixel",
+          "path": "Sets/03-Void-and-Moon/C2-Void-Pixel",
+          "preview": "Previews/03-Void-and-Moon/C2"
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "group": "FFXIV",
+      "slug": "04-A-Realm-Reborn",
+      "name": "FFXIV - A Realm Reborn",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Bahamut Crimson Relic",
+          "blurb": "Ornate gold-and-ruby relic sword radiating Calamity flare embers.",
+          "material": "metal",
+          "pointer": "greatsword",
+          "scheme": "FFXIV - A Realm Reborn - A Bahamut Crimson Relic",
+          "path": "Sets/04-A-Realm-Reborn/A-Bahamut-Crimson-Relic",
+          "preview": "Previews/04-A-Realm-Reborn/A"
+        },
+        {
+          "key": "B",
+          "label": "Blazing Dalamud Meteor",
+          "blurb": "The descending crimson moon Dalamud with an animated flame trail.",
+          "material": "gloss",
+          "pointer": "mini",
+          "scheme": "FFXIV - A Realm Reborn - B Blazing Dalamud Meteor",
+          "path": "Sets/04-A-Realm-Reborn/B-Blazing-Dalamud-Meteor",
+          "preview": "Previews/04-A-Realm-Reborn/B"
+        },
+        {
+          "key": "C",
+          "label": "Meteor Sigil Gauntlet",
+          "blurb": "Black-iron Grand Company gauntlet projecting a glowing orange target rune.",
+          "material": "metal",
+          "pointer": "gauntlet",
+          "scheme": "FFXIV - A Realm Reborn - C Meteor Sigil Gauntlet",
+          "path": "Sets/04-A-Realm-Reborn/C-Meteor-Sigil-Gauntlet",
+          "preview": "Previews/04-A-Realm-Reborn/C"
+        },
+        {
+          "key": "C2",
+          "label": "Calamity Pixel",
+          "blurb": "Pixel-art falling meteor and ember sprites, Eorzea 1.0 style.",
+          "material": "pixel",
+          "pointer": "shard",
+          "scheme": "FFXIV - A Realm Reborn - C2 Calamity Pixel",
+          "path": "Sets/04-A-Realm-Reborn/C2-Calamity-Pixel",
+          "preview": "Previews/04-A-Realm-Reborn/C2"
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "group": "WoW",
+      "slug": "05-Frostmourne-Icecrown",
+      "name": "WoW - Frostmourne Icecrown",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Frostmourne Runeblade",
+          "blurb": "Runeblade with a horned skull guard, glowing runes and icy mist.",
+          "material": "facet",
+          "pointer": "runeblade",
+          "scheme": "WoW - Frostmourne Icecrown - A Frostmourne Runeblade",
+          "path": "Sets/05-Frostmourne-Icecrown/A-Frostmourne-Runeblade",
+          "preview": "Previews/05-Frostmourne-Icecrown/A"
+        },
+        {
+          "key": "B",
+          "label": "Helm of Domination",
+          "blurb": "The crown of the Lich King with blazing blue eyes in a blizzard swirl.",
+          "material": "metal",
+          "pointer": "mini",
+          "scheme": "WoW - Frostmourne Icecrown - B Helm of Domination",
+          "path": "Sets/05-Frostmourne-Icecrown/B-Helm-of-Domination",
+          "preview": "Previews/05-Frostmourne-Icecrown/B"
+        },
+        {
+          "key": "C",
+          "label": "Icecrown War-Gauntlet",
+          "blurb": "Spiked saronite death-knight gauntlet etched with frost runes.",
+          "material": "metal",
+          "pointer": "gauntlet",
+          "scheme": "WoW - Frostmourne Icecrown - C Icecrown War-Gauntlet",
+          "path": "Sets/05-Frostmourne-Icecrown/C-Icecrown-War-Gauntlet",
+          "preview": "Previews/05-Frostmourne-Icecrown/C"
+        },
+        {
+          "key": "C2",
+          "label": "Frozen Throne HUD",
+          "blurb": "Ice-blue neon interface pointer with a rotating rune circle.",
+          "material": "neon",
+          "pointer": "wing",
+          "scheme": "WoW - Frostmourne Icecrown - C2 Frozen Throne HUD",
+          "path": "Sets/05-Frostmourne-Icecrown/C2-Frozen-Throne-HUD",
+          "preview": "Previews/05-Frostmourne-Icecrown/C2"
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "group": "WoW",
+      "slug": "06-Ashbringer-Silver-Hand",
+      "name": "WoW - Ashbringer and Silver Hand",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Radiant Ashbringer",
+          "blurb": "Golden greatsword with a levitating Holy Light orb and spark trail.",
+          "material": "metal",
+          "pointer": "greatsword",
+          "scheme": "WoW - Ashbringer and Silver Hand - A Radiant Ashbringer",
+          "path": "Sets/06-Ashbringer-Silver-Hand/A-Radiant-Ashbringer",
+          "preview": "Previews/06-Ashbringer-Silver-Hand/A"
+        },
+        {
+          "key": "B",
+          "label": "Swirling Hearthstone",
+          "blurb": "Golden-framed hearthstone with a rotating azure portal spiral.",
+          "material": "gloss",
+          "pointer": "mini",
+          "scheme": "WoW - Ashbringer and Silver Hand - B Swirling Hearthstone",
+          "path": "Sets/06-Ashbringer-Silver-Hand/B-Swirling-Hearthstone",
+          "preview": "Previews/06-Ashbringer-Silver-Hand/B"
+        },
+        {
+          "key": "C",
+          "label": "Silver Hand Gauntlet",
+          "blurb": "Gold paladin plate gauntlet with glowing holy runes.",
+          "material": "metal",
+          "pointer": "gauntlet",
+          "scheme": "WoW - Ashbringer and Silver Hand - C Silver Hand Gauntlet",
+          "path": "Sets/06-Ashbringer-Silver-Hand/C-Silver-Hand-Gauntlet",
+          "preview": "Previews/06-Ashbringer-Silver-Hand/C"
+        },
+        {
+          "key": "C2",
+          "label": "Light HUD Pixel",
+          "blurb": "Pixel-art holy sword and hearthstone sprites.",
+          "material": "pixel",
+          "pointer": "sword",
+          "scheme": "WoW - Ashbringer and Silver Hand - C2 Light HUD Pixel",
+          "path": "Sets/06-Ashbringer-Silver-Hand/C2-Light-HUD-Pixel",
+          "preview": "Previews/06-Ashbringer-Silver-Hand/C2"
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "group": "WoW",
+      "slug": "07-Dalaran-Arcane-Emerald-Dream",
+      "name": "WoW - Dalaran Arcane and Emerald Dream",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Kirin Tor Crystal Blade",
+          "blurb": "Floating violet arcane crystal sword with orbiting mana shards.",
+          "material": "facet",
+          "pointer": "sword",
+          "scheme": "WoW - Dalaran Arcane and Emerald Dream - A Kirin Tor Crystal Blade",
+          "path": "Sets/07-Dalaran-Arcane-Emerald-Dream/A-Kirin-Tor-Crystal-Blade",
+          "preview": "Previews/07-Dalaran-Arcane-Emerald-Dream/A"
+        },
+        {
+          "key": "B",
+          "label": "Eye of Dalaran and Dream",
+          "blurb": "Golden Kirin Tor eye wrapped in glowing Emerald Dream vines.",
+          "material": "gloss",
+          "pointer": "mini",
+          "scheme": "WoW - Dalaran Arcane and Emerald Dream - B Eye of Dalaran and Dream",
+          "path": "Sets/07-Dalaran-Arcane-Emerald-Dream/B-Eye-of-Dalaran-and-Dream",
+          "preview": "Previews/07-Dalaran-Arcane-Emerald-Dream/B"
+        },
+        {
+          "key": "C",
+          "label": "Archmage Runic Gauntlet",
+          "blurb": "Violet-and-gold gauntlet traced with living emerald filigree.",
+          "material": "metal",
+          "pointer": "gauntlet",
+          "scheme": "WoW - Dalaran Arcane and Emerald Dream - C Archmage Runic Gauntlet",
+          "path": "Sets/07-Dalaran-Arcane-Emerald-Dream/C-Archmage-Runic-Gauntlet",
+          "preview": "Previews/07-Dalaran-Arcane-Emerald-Dream/C"
+        },
+        {
+          "key": "C2",
+          "label": "Arcane Neon Sigil",
+          "blurb": "Violet neon spell-HUD pointer with a turning rune sigil.",
+          "material": "neon",
+          "pointer": "sleek",
+          "scheme": "WoW - Dalaran Arcane and Emerald Dream - C2 Arcane Neon Sigil",
+          "path": "Sets/07-Dalaran-Arcane-Emerald-Dream/C2-Arcane-Neon-Sigil",
+          "preview": "Previews/07-Dalaran-Arcane-Emerald-Dream/C2"
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "group": "Goosebumps",
+      "slug": "08-Monster-Blood",
+      "name": "Goosebumps - Monster Blood",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Glossy Slime and Canister",
+          "blurb": "Translucent oozing green Monster Blood pointer and a purple canister.",
+          "material": "gel",
+          "pointer": "drip",
+          "scheme": "Goosebumps - Monster Blood - A Glossy Slime and Canister",
+          "path": "Sets/08-Monster-Blood/A-Glossy-Slime-and-Canister",
+          "preview": "Previews/08-Monster-Blood/A"
+        },
+        {
+          "key": "B",
+          "label": "Living Slime Mascot",
+          "blurb": "A bubbling green slime creature with a hazard-canister spinner.",
+          "material": "gloss",
+          "pointer": "mini",
+          "scheme": "Goosebumps - Monster Blood - B Living Slime Mascot",
+          "path": "Sets/08-Monster-Blood/B-Living-Slime-Mascot",
+          "preview": "Previews/08-Monster-Blood/B"
+        },
+        {
+          "key": "C",
+          "label": "Retro 16-Bit Neon Pixel",
+          "blurb": "Crisp 90s arcade pixel art: a dripping neon-green pointer and a purple tub.",
+          "material": "pixel",
+          "pointer": "drip",
+          "scheme": "Goosebumps - Monster Blood - C Retro 16-Bit Neon Pixel",
+          "path": "Sets/08-Monster-Blood/C-Retro-16-Bit-Neon-Pixel",
+          "preview": "Previews/08-Monster-Blood/C"
+        },
+        {
+          "key": "C2",
+          "label": "Paperback Cover Ink",
+          "blurb": "Book-cover horror ink: black outlines, hatching, acid green and label purple.",
+          "material": "ink",
+          "pointer": "classic",
+          "scheme": "Goosebumps - Monster Blood - C2 Paperback Cover Ink",
+          "path": "Sets/08-Monster-Blood/C2-Paperback-Cover-Ink",
+          "preview": "Previews/08-Monster-Blood/C2"
+        }
+      ]
+    },
+    {
+      "num": 9,
+      "group": "Goosebumps",
+      "slug": "09-Lawn-Gnomes",
+      "name": "Goosebumps - Revenge of the Lawn Gnomes",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Ceramic Gnome and Flamingo",
+          "blurb": "Glazed red-cap gnome hat pointer with a glossy pink lawn flamingo.",
+          "material": "gloss",
+          "pointer": "hat",
+          "scheme": "Goosebumps - Revenge of the Lawn Gnomes - A Ceramic Gnome and Flamingo",
+          "path": "Sets/09-Lawn-Gnomes/A-Ceramic-Gnome-and-Flamingo",
+          "preview": "Previews/09-Lawn-Gnomes/A"
+        },
+        {
+          "key": "B",
+          "label": "Sinister Gnome Mascot",
+          "blurb": "A grinning yellow-eyed mischief gnome with a startled flamingo spinner.",
+          "material": "flat",
+          "pointer": "mini",
+          "scheme": "Goosebumps - Revenge of the Lawn Gnomes - B Sinister Gnome Mascot",
+          "path": "Sets/09-Lawn-Gnomes/B-Sinister-Gnome-Mascot",
+          "preview": "Previews/09-Lawn-Gnomes/B"
+        },
+        {
+          "key": "C",
+          "label": "Retro 16-Bit Pixel Gnome",
+          "blurb": "Neon-outlined pixel-art lawn gnome and pink flamingo.",
+          "material": "pixel",
+          "pointer": "classic",
+          "scheme": "Goosebumps - Revenge of the Lawn Gnomes - C Retro 16-Bit Pixel Gnome",
+          "path": "Sets/09-Lawn-Gnomes/C-Retro-16-Bit-Pixel-Gnome",
+          "preview": "Previews/09-Lawn-Gnomes/C"
+        },
+        {
+          "key": "C2",
+          "label": "Haunted Garden Neon",
+          "blurb": "Moonlit-garden neon with glowing red gnome eyes.",
+          "material": "neon",
+          "pointer": "wisp",
+          "scheme": "Goosebumps - Revenge of the Lawn Gnomes - C2 Haunted Garden Neon",
+          "path": "Sets/09-Lawn-Gnomes/C2-Haunted-Garden-Neon",
+          "preview": "Previews/09-Lawn-Gnomes/C2"
+        }
+      ]
+    },
+    {
+      "num": 10,
+      "group": "GW2",
+      "slug": "10-Blish",
+      "name": "GW2 - Blish (Golemite)",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Golem Chassis Spear",
+          "blurb": "Blish's ivory-and-gold golem plating with a glowing cyan spearhead.",
+          "material": "metal",
+          "pointer": "glaive",
+          "scheme": "GW2 - Blish (Golemite) - A Golem Chassis Spear",
+          "path": "Sets/10-Blish/A-Golem-Chassis-Spear",
+          "preview": "Previews/10-Blish/A"
+        },
+        {
+          "key": "B",
+          "label": "Hovering Blish Optic",
+          "blurb": "Blish's round golem head with a scanning cyan visor beside a hardlight arrow.",
+          "material": "gloss",
+          "pointer": "mini",
+          "scheme": "GW2 - Blish (Golemite) - B Hovering Blish Optic",
+          "path": "Sets/10-Blish/B-Hovering-Blish-Optic",
+          "preview": "Previews/10-Blish/B"
+        },
+        {
+          "key": "C",
+          "label": "Painterly Hardlight Chevron",
+          "blurb": "Painterly cyan-and-gold brushstroke chevron with asuran glyphs.",
+          "material": "paint",
+          "pointer": "brush",
+          "scheme": "GW2 - Blish (Golemite) - C Painterly Hardlight Chevron",
+          "path": "Sets/10-Blish/C-Painterly-Hardlight-Chevron",
+          "preview": "Previews/10-Blish/C"
+        },
+        {
+          "key": "C2",
+          "label": "Golemite Pixel",
+          "blurb": "Pixel-art golem optic and gear sprites.",
+          "material": "pixel",
+          "pointer": "blunt",
+          "scheme": "GW2 - Blish (Golemite) - C2 Golemite Pixel",
+          "path": "Sets/10-Blish/C2-Golemite-Pixel",
+          "preview": "Previews/10-Blish/C2"
+        }
+      ]
+    },
+    {
+      "num": 11,
+      "group": "GW2",
+      "slug": "11-Tybalt-Leftpaw",
+      "name": "GW2 - Tybalt Leftpaw",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Lightbringer Crest and Dagger",
+          "blurb": "Tybalt's charr crest under a winged Order of Whispers dagger.",
+          "material": "metal",
+          "pointer": "dagger",
+          "scheme": "GW2 - Tybalt Leftpaw - A Lightbringer Crest and Dagger",
+          "path": "Sets/11-Tybalt-Leftpaw/A-Lightbringer-Crest-and-Dagger",
+          "preview": "Previews/11-Tybalt-Leftpaw/A"
+        },
+        {
+          "key": "B",
+          "label": "Bitten Cider Apple and Paw",
+          "blurb": "A glossy bitten cider apple with Tybalt's charr paw.",
+          "material": "gloss",
+          "pointer": "mini",
+          "scheme": "GW2 - Tybalt Leftpaw - B Bitten Cider Apple and Paw",
+          "path": "Sets/11-Tybalt-Leftpaw/B-Bitten-Cider-Apple-and-Paw",
+          "preview": "Previews/11-Tybalt-Leftpaw/B"
+        },
+        {
+          "key": "C",
+          "label": "Painterly Clockwork Stroke",
+          "blurb": "A fiery amber brushstroke arrow driven by interlocking gears.",
+          "material": "paint",
+          "pointer": "brush",
+          "scheme": "GW2 - Tybalt Leftpaw - C Painterly Clockwork Stroke",
+          "path": "Sets/11-Tybalt-Leftpaw/C-Painterly-Clockwork-Stroke",
+          "preview": "Previews/11-Tybalt-Leftpaw/C"
+        },
+        {
+          "key": "C2",
+          "label": "Charr Pixel",
+          "blurb": "Pixel-art Tybalt head, apple and paw sprites.",
+          "material": "pixel",
+          "pointer": "classic",
+          "scheme": "GW2 - Tybalt Leftpaw - C2 Charr Pixel",
+          "path": "Sets/11-Tybalt-Leftpaw/C2-Charr-Pixel",
+          "preview": "Previews/11-Tybalt-Leftpaw/C2"
+        }
+      ]
+    },
+    {
+      "num": 12,
+      "group": "GW2",
+      "slug": "12-Taimi-and-Scruffy",
+      "name": "GW2 - Taimi and Scruffy 2.0",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Scruffy Mech and Holo-Bow Spear",
+          "blurb": "Teal-and-pink Scruffy 2.0 under Taimi's neon spear tip.",
+          "material": "metal",
+          "pointer": "spear",
+          "scheme": "GW2 - Taimi and Scruffy 2.0 - A Scruffy Mech and Holo-Bow Spear",
+          "path": "Sets/12-Taimi-and-Scruffy/A-Scruffy-Mech-and-Holo-Bow-Spear",
+          "preview": "Previews/12-Taimi-and-Scruffy/A"
+        },
+        {
+          "key": "B",
+          "label": "Chibi Taimi and Scruffy",
+          "blurb": "Expressive Taimi mascot beside your pointer, Scruffy as the spinner.",
+          "material": "gloss",
+          "pointer": "mini",
+          "scheme": "GW2 - Taimi and Scruffy 2.0 - B Chibi Taimi and Scruffy",
+          "path": "Sets/12-Taimi-and-Scruffy/B-Chibi-Taimi-and-Scruffy",
+          "preview": "Previews/12-Taimi-and-Scruffy/B"
+        },
+        {
+          "key": "C",
+          "label": "Neon Hardlight Bow",
+          "blurb": "Magenta-and-cyan asuran hologram emitter projecting a laser pointer.",
+          "material": "neon",
+          "pointer": "emitter",
+          "scheme": "GW2 - Taimi and Scruffy 2.0 - C Neon Hardlight Bow",
+          "path": "Sets/12-Taimi-and-Scruffy/C-Neon-Hardlight-Bow",
+          "preview": "Previews/12-Taimi-and-Scruffy/C"
+        },
+        {
+          "key": "C2",
+          "label": "Taimi Pixel",
+          "blurb": "Pixel-art Taimi and Scruffy sprites.",
+          "material": "pixel",
+          "pointer": "blunt",
+          "scheme": "GW2 - Taimi and Scruffy 2.0 - C2 Taimi Pixel",
+          "path": "Sets/12-Taimi-and-Scruffy/C2-Taimi-Pixel",
+          "preview": "Previews/12-Taimi-and-Scruffy/C2"
+        }
+      ]
+    },
+    {
+      "num": 13,
+      "group": "GW2",
+      "slug": "13-Canach",
+      "name": "GW2 - Canach",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Bioluminescent Vine Spear",
+          "blurb": "Thorny emerald sylvari spear glowing with green sap and spores.",
+          "material": "facet",
+          "pointer": "spear",
+          "scheme": "GW2 - Canach - A Bioluminescent Vine Spear",
+          "path": "Sets/13-Canach/A-Bioluminescent-Vine-Spear",
+          "preview": "Previews/13-Canach/A"
+        },
+        {
+          "key": "B",
+          "label": "Jungle Blossom Bomb",
+          "blurb": "Canach's bioluminescent golden-emerald blossom bomb with a lit fuse.",
+          "material": "gloss",
+          "pointer": "mini",
+          "scheme": "GW2 - Canach - B Jungle Blossom Bomb",
+          "path": "Sets/13-Canach/B-Jungle-Blossom-Bomb",
+          "preview": "Previews/13-Canach/B"
+        },
+        {
+          "key": "C",
+          "label": "Mercenary Shield-Dagger",
+          "blurb": "Ironwood-and-brass shield-dagger with a thorny emerald blade.",
+          "material": "metal",
+          "pointer": "dagger",
+          "scheme": "GW2 - Canach - C Mercenary Shield-Dagger",
+          "path": "Sets/13-Canach/C-Mercenary-Shield-Dagger",
+          "preview": "Previews/13-Canach/C"
+        },
+        {
+          "key": "C2",
+          "label": "Sylvari Pixel",
+          "blurb": "Pixel-art leaf blade and blossom bomb.",
+          "material": "pixel",
+          "pointer": "leaf",
+          "scheme": "GW2 - Canach - C2 Sylvari Pixel",
+          "path": "Sets/13-Canach/C2-Sylvari-Pixel",
+          "preview": "Previews/13-Canach/C2"
+        }
+      ]
+    },
+    {
+      "num": 14,
+      "group": "GW2",
+      "slug": "14-Palawa-Joko",
+      "name": "GW2 - Palawa Joko",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Awakened Crescent Staff",
+          "blurb": "Golden crescent scepter wreathed in necrotic green soulfire.",
+          "material": "metal",
+          "pointer": "staff",
+          "scheme": "GW2 - Palawa Joko - A Awakened Crescent Staff",
+          "path": "Sets/14-Palawa-Joko/A-Awakened-Crescent-Staff",
+          "preview": "Previews/14-Palawa-Joko/A"
+        },
+        {
+          "key": "B",
+          "label": "Undying Lich Pharaoh",
+          "blurb": "Joko's golden headdress and skull blazing with emerald fire.",
+          "material": "gloss",
+          "pointer": "mini",
+          "scheme": "GW2 - Palawa Joko - B Undying Lich Pharaoh",
+          "path": "Sets/14-Palawa-Joko/B-Undying-Lich-Pharaoh",
+          "preview": "Previews/14-Palawa-Joko/B"
+        },
+        {
+          "key": "C",
+          "label": "Mummified Royal Scarab",
+          "blurb": "A golden Vabbian scarab leaving a necrotic green trail.",
+          "material": "neon",
+          "pointer": "shard",
+          "scheme": "GW2 - Palawa Joko - C Mummified Royal Scarab",
+          "path": "Sets/14-Palawa-Joko/C-Mummified-Royal-Scarab",
+          "preview": "Previews/14-Palawa-Joko/C"
+        },
+        {
+          "key": "C2",
+          "label": "Joko Pixel",
+          "blurb": "Pixel-art pharaoh skull and scarab sprites.",
+          "material": "pixel",
+          "pointer": "classic",
+          "scheme": "GW2 - Palawa Joko - C2 Joko Pixel",
+          "path": "Sets/14-Palawa-Joko/C2-Joko-Pixel",
+          "preview": "Previews/14-Palawa-Joko/C2"
+        }
+      ]
+    },
+    {
+      "num": 15,
+      "group": "GW2",
+      "slug": "15-Tyrian-Legends",
+      "name": "GW2 - Tyrian Legends Ensemble",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Prismatic Spear and Dragon",
+          "blurb": "A prismatic crystal spear with a fiery crimson dragon wing.",
+          "material": "facet",
+          "pointer": "glaive",
+          "scheme": "GW2 - Tyrian Legends Ensemble - A Prismatic Spear and Dragon",
+          "path": "Sets/15-Tyrian-Legends/A-Prismatic-Spear-and-Dragon",
+          "preview": "Previews/15-Tyrian-Legends/A"
+        },
+        {
+          "key": "B",
+          "label": "Commander Tag Crest",
+          "blurb": "A colour-cycling commander tag rides your pointer, heroes take turns on the other pointers.",
+          "material": "gloss",
+          "pointer": "mini",
+          "scheme": "GW2 - Tyrian Legends Ensemble - B Commander Tag Crest",
+          "path": "Sets/15-Tyrian-Legends/B-Commander-Tag-Crest",
+          "preview": "Previews/15-Tyrian-Legends/B"
+        },
+        {
+          "key": "C",
+          "label": "Painterly Dragon Wing",
+          "blurb": "A fiery crimson brushstroke dragon-wing pointer, ArenaNet concept-art style.",
+          "material": "paint",
+          "pointer": "brush",
+          "scheme": "GW2 - Tyrian Legends Ensemble - C Painterly Dragon Wing",
+          "path": "Sets/15-Tyrian-Legends/C-Painterly-Dragon-Wing",
+          "preview": "Previews/15-Tyrian-Legends/C"
+        },
+        {
+          "key": "C2",
+          "label": "Pixel Heroes",
+          "blurb": "Pixel-art party: all five heroes as crisp 32 px sprites.",
+          "material": "pixel",
+          "pointer": "classic",
+          "scheme": "GW2 - Tyrian Legends Ensemble - C2 Pixel Heroes",
+          "path": "Sets/15-Tyrian-Legends/C2-Pixel-Heroes",
+          "preview": "Previews/15-Tyrian-Legends/C2"
+        }
+      ]
+    },
+    {
+      "num": 16,
+      "group": "GW2",
+      "slug": "16-Blish-and-Taimi-Magitech",
+      "name": "GW2 - Blish and Taimi Magitech",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Golem Hardlight Gauntlet",
+          "blurb": "Gold-and-ivory golem gauntlet laced with neon magenta circuitry.",
+          "material": "metal",
+          "pointer": "gauntlet",
+          "scheme": "GW2 - Blish and Taimi Magitech - A Golem Hardlight Gauntlet",
+          "path": "Sets/16-Blish-and-Taimi-Magitech/A-Golem-Hardlight-Gauntlet",
+          "preview": "Previews/16-Blish-and-Taimi-Magitech/A"
+        },
+        {
+          "key": "B",
+          "label": "Eternal Alchemy Polyhedron",
+          "blurb": "Interlocking cyan-and-pink holo-polyhedron core turning beside your pointer.",
+          "material": "gloss",
+          "pointer": "mini",
+          "scheme": "GW2 - Blish and Taimi Magitech - B Eternal Alchemy Polyhedron",
+          "path": "Sets/16-Blish-and-Taimi-Magitech/B-Eternal-Alchemy-Polyhedron",
+          "preview": "Previews/16-Blish-and-Taimi-Magitech/B"
+        },
+        {
+          "key": "C",
+          "label": "Holographic Target Emitter",
+          "blurb": "Sleek cyan-and-magenta laser emitter with a target reticle.",
+          "material": "neon",
+          "pointer": "emitter",
+          "scheme": "GW2 - Blish and Taimi Magitech - C Holographic Target Emitter",
+          "path": "Sets/16-Blish-and-Taimi-Magitech/C-Holographic-Target-Emitter",
+          "preview": "Previews/16-Blish-and-Taimi-Magitech/C"
+        },
+        {
+          "key": "C2",
+          "label": "Magitech Pixel",
+          "blurb": "Pixel-art golem and asura gadget sprites.",
+          "material": "pixel",
+          "pointer": "wand",
+          "scheme": "GW2 - Blish and Taimi Magitech - C2 Magitech Pixel",
+          "path": "Sets/16-Blish-and-Taimi-Magitech/C2-Magitech-Pixel",
+          "preview": "Previews/16-Blish-and-Taimi-Magitech/C2"
+        }
+      ]
+    },
+    {
+      "num": 17,
+      "group": "GW2",
+      "slug": "17-Canach-Joko-Tybalt",
+      "name": "GW2 - Canach, Joko and Tybalt",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Apple, Crescent and Thorn Dagger",
+          "blurb": "A dagger uniting Tybalt's apple, Joko's crescent and Canach's thorns.",
+          "material": "metal",
+          "pointer": "dagger",
+          "scheme": "GW2 - Canach, Joko and Tybalt - A Apple, Crescent and Thorn Dagger",
+          "path": "Sets/17-Canach-Joko-Tybalt/A-Apple-Crescent-and-Thorn-Dagger",
+          "preview": "Previews/17-Canach-Joko-Tybalt/A"
+        },
+        {
+          "key": "B",
+          "label": "Dramatic Tri-Crest",
+          "blurb": "Bitten apple, blossom bomb and golden scarab take turns beside your pointer.",
+          "material": "gloss",
+          "pointer": "mini",
+          "scheme": "GW2 - Canach, Joko and Tybalt - B Dramatic Tri-Crest",
+          "path": "Sets/17-Canach-Joko-Tybalt/B-Dramatic-Tri-Crest",
+          "preview": "Previews/17-Canach-Joko-Tybalt/B"
+        },
+        {
+          "key": "C",
+          "label": "Dark Painterly Blade",
+          "blurb": "A sweeping obsidian, gold and crimson brushstroke war-pointer.",
+          "material": "paint",
+          "pointer": "brush",
+          "scheme": "GW2 - Canach, Joko and Tybalt - C Dark Painterly Blade",
+          "path": "Sets/17-Canach-Joko-Tybalt/C-Dark-Painterly-Blade",
+          "preview": "Previews/17-Canach-Joko-Tybalt/C"
+        },
+        {
+          "key": "C2",
+          "label": "Trio Pixel",
+          "blurb": "Pixel-art sprites of all three rivals.",
+          "material": "pixel",
+          "pointer": "classic",
+          "scheme": "GW2 - Canach, Joko and Tybalt - C2 Trio Pixel",
+          "path": "Sets/17-Canach-Joko-Tybalt/C2-Trio-Pixel",
+          "preview": "Previews/17-Canach-Joko-Tybalt/C2"
+        }
+      ]
+    },
+    {
+      "num": 18,
+      "group": "Pokemon",
+      "slug": "18-Kanto-Companions",
+      "name": "Pokemon - Kanto Companions",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Glossy Tail and Capture Ball",
+          "blurb": "A smooth glossy yellow lightning-tail pointer with a red-and-white capture ball.",
+          "material": "gloss",
+          "pointer": "boltptr",
+          "scheme": "Pokemon - Kanto Companions - A Glossy Tail and Capture Ball",
+          "path": "Sets/18-Kanto-Companions/A-Glossy-Tail-and-Capture-Ball",
+          "preview": "Previews/18-Kanto-Companions/A"
+        },
+        {
+          "key": "B",
+          "label": "Anime Spark Tail",
+          "blurb": "Cel-shaded lightning bolt crackling with sparks and a capture ball.",
+          "material": "flat",
+          "pointer": "mini",
+          "scheme": "Pokemon - Kanto Companions - B Anime Spark Tail",
+          "path": "Sets/18-Kanto-Companions/B-Anime-Spark-Tail",
+          "preview": "Previews/18-Kanto-Companions/B"
+        },
+        {
+          "key": "C",
+          "label": "16-Bit GBA Pixel",
+          "blurb": "Neon-outlined pixel bolt and classic pixel capture ball.",
+          "material": "pixel",
+          "pointer": "boltptr",
+          "scheme": "Pokemon - Kanto Companions - C 16-Bit GBA Pixel",
+          "path": "Sets/18-Kanto-Companions/C-16-Bit-GBA-Pixel",
+          "preview": "Previews/18-Kanto-Companions/C"
+        },
+        {
+          "key": "C2",
+          "label": "Pocket Monochrome",
+          "blurb": "Four-shade green handheld pixel art, the original 1996 look.",
+          "material": "pixel",
+          "pointer": "classic",
+          "scheme": "Pokemon - Kanto Companions - C2 Pocket Monochrome",
+          "path": "Sets/18-Kanto-Companions/C2-Pocket-Monochrome",
+          "preview": "Previews/18-Kanto-Companions/C2"
+        }
+      ]
+    },
+    {
+      "num": 19,
+      "group": "Pokemon",
+      "slug": "19-Ghost-Parade",
+      "name": "Pokemon - Ghost Parade",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Shadow Spirit and Soul Candle",
+          "blurb": "A glossy amethyst ghost pointer with a glowing violet soul candle.",
+          "material": "gel",
+          "pointer": "wisp",
+          "scheme": "Pokemon - Ghost Parade - A Shadow Spirit and Soul Candle",
+          "path": "Sets/19-Ghost-Parade/A-Shadow-Spirit-and-Soul-Candle",
+          "preview": "Previews/19-Ghost-Parade/A"
+        },
+        {
+          "key": "B",
+          "label": "Grinning Ghost and Candle",
+          "blurb": "An expressive grinning shadow ghost and a happy little candle.",
+          "material": "gloss",
+          "pointer": "mini",
+          "scheme": "Pokemon - Ghost Parade - B Grinning Ghost and Candle",
+          "path": "Sets/19-Ghost-Parade/B-Grinning-Ghost-and-Candle",
+          "preview": "Previews/19-Ghost-Parade/B"
+        },
+        {
+          "key": "C",
+          "label": "Lavender Tower Pixel",
+          "blurb": "Retro purple pixel ghost and flickering pixel candle.",
+          "material": "pixel",
+          "pointer": "wisp",
+          "scheme": "Pokemon - Ghost Parade - C Lavender Tower Pixel",
+          "path": "Sets/19-Ghost-Parade/C-Lavender-Tower-Pixel",
+          "preview": "Previews/19-Ghost-Parade/C"
+        },
+        {
+          "key": "C2",
+          "label": "Haunting Gas Neon",
+          "blurb": "Violet gas-cloud neon with drifting purple wisps.",
+          "material": "neon",
+          "pointer": "wisp",
+          "scheme": "Pokemon - Ghost Parade - C2 Haunting Gas Neon",
+          "path": "Sets/19-Ghost-Parade/C2-Haunting-Gas-Neon",
+          "preview": "Previews/19-Ghost-Parade/C2"
+        }
+      ]
+    },
+    {
+      "num": 20,
+      "group": "Simpsons",
+      "slug": "20-Springfield-Donuts",
+      "name": "Simpsons - Springfield Donuts",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Plush 3D Hand and Donut",
+          "blurb": "A soft yellow four-finger cartoon hand pointer and a glossy pink donut.",
+          "material": "gel",
+          "pointer": "cartoonhand",
+          "scheme": "Simpsons - Springfield Donuts - A Plush 3D Hand and Donut",
+          "path": "Sets/20-Springfield-Donuts/A-Plush-3D-Hand-and-Donut",
+          "preview": "Previews/20-Springfield-Donuts/A"
+        },
+        {
+          "key": "B",
+          "label": "Cel-Shaded Cartoon Hand",
+          "blurb": "Bold inked yellow hand and a smiling pink-frosted donut, show-style flat colour.",
+          "material": "flat",
+          "pointer": "cartoonhand",
+          "scheme": "Simpsons - Springfield Donuts - B Cel-Shaded Cartoon Hand",
+          "path": "Sets/20-Springfield-Donuts/B-Cel-Shaded-Cartoon-Hand",
+          "preview": "Previews/20-Springfield-Donuts/B"
+        },
+        {
+          "key": "C",
+          "label": "Arcade 16-Bit Pixel",
+          "blurb": "Arcade-cabinet pixel-art yellow hand and sprinkled donut.",
+          "material": "pixel",
+          "pointer": "cartoonhand",
+          "scheme": "Simpsons - Springfield Donuts - C Arcade 16-Bit Pixel",
+          "path": "Sets/20-Springfield-Donuts/C-Arcade-16-Bit-Pixel",
+          "preview": "Previews/20-Springfield-Donuts/C"
+        },
+        {
+          "key": "C2",
+          "label": "Springfield Sticker",
+          "blurb": "Die-cut sticker pointer with a sprinkle donut charm.",
+          "material": "sticker",
+          "pointer": "blunt",
+          "scheme": "Simpsons - Springfield Donuts - C2 Springfield Sticker",
+          "path": "Sets/20-Springfield-Donuts/C2-Springfield-Sticker",
+          "preview": "Previews/20-Springfield-Donuts/C2"
+        }
+      ]
+    },
+    {
+      "num": 21,
+      "group": "Simpsons",
+      "slug": "21-Nuclear-Nightshift",
+      "name": "Simpsons - Nuclear Nightshift",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Glowing Carbon Rod and Fish",
+          "blurb": "Neon-green glowing carbon rod pointer and a three-eyed fish.",
+          "material": "gloss",
+          "pointer": "rodptr",
+          "scheme": "Simpsons - Nuclear Nightshift - A Glowing Carbon Rod and Fish",
+          "path": "Sets/21-Nuclear-Nightshift/A-Glowing-Carbon-Rod-and-Fish",
+          "preview": "Previews/21-Nuclear-Nightshift/A"
+        },
+        {
+          "key": "B",
+          "label": "Oozing Cartoon Rod",
+          "blurb": "A dripping radioactive cel-shaded rod and a wide-eyed three-eyed fish.",
+          "material": "flat",
+          "pointer": "mini",
+          "scheme": "Simpsons - Nuclear Nightshift - B Oozing Cartoon Rod",
+          "path": "Sets/21-Nuclear-Nightshift/B-Oozing-Cartoon-Rod",
+          "preview": "Previews/21-Nuclear-Nightshift/B"
+        },
+        {
+          "key": "C",
+          "label": "Sector 7G Pixel",
+          "blurb": "Pixel-art plutonium rod and a pixel three-eyed fish spinner.",
+          "material": "pixel",
+          "pointer": "rodptr",
+          "scheme": "Simpsons - Nuclear Nightshift - C Sector 7G Pixel",
+          "path": "Sets/21-Nuclear-Nightshift/C-Sector-7G-Pixel",
+          "preview": "Previews/21-Nuclear-Nightshift/C"
+        },
+        {
+          "key": "C2",
+          "label": "Control Room Neon",
+          "blurb": "Night-shift control-panel neon with a radiation core.",
+          "material": "neon",
+          "pointer": "shard",
+          "scheme": "Simpsons - Nuclear Nightshift - C2 Control Room Neon",
+          "path": "Sets/21-Nuclear-Nightshift/C2-Control-Room-Neon",
+          "preview": "Previews/21-Nuclear-Nightshift/C2"
+        }
+      ]
+    },
+    {
+      "num": 22,
+      "group": "Cute-Classic",
+      "slug": "22-Sanrio-Friends-Remastered",
+      "name": "Cute - Sanrio Friends Remastered",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Plush Satin Bow and Angel Wing",
+          "blurb": "Soft pastel pink-and-blue satin bow with a fluffy angel wing.",
+          "material": "gel",
+          "pointer": "blunt",
+          "scheme": "Cute - Sanrio Friends Remastered - A Plush Satin Bow and Angel Wing",
+          "path": "Sets/22-Sanrio-Friends-Remastered/A-Plush-Satin-Bow-and-Angel-Wing",
+          "preview": "Previews/22-Sanrio-Friends-Remastered/A"
+        },
+        {
+          "key": "B",
+          "label": "Kawaii Cel-Shaded Bow",
+          "blurb": "Crisp outlined pastel ribbon bow and feathered wing, with the bunny friend.",
+          "material": "flat",
+          "pointer": "mini",
+          "scheme": "Cute - Sanrio Friends Remastered - B Kawaii Cel-Shaded Bow",
+          "path": "Sets/22-Sanrio-Friends-Remastered/B-Kawaii-Cel-Shaded-Bow",
+          "preview": "Previews/22-Sanrio-Friends-Remastered/B"
+        },
+        {
+          "key": "C",
+          "label": "Remastered Pastel Pixel",
+          "blurb": "Desktop-pet pixel art: pink-and-blue bow and angel wing.",
+          "material": "pixel",
+          "pointer": "classic",
+          "scheme": "Cute - Sanrio Friends Remastered - C Remastered Pastel Pixel",
+          "path": "Sets/22-Sanrio-Friends-Remastered/C-Remastered-Pastel-Pixel",
+          "preview": "Previews/22-Sanrio-Friends-Remastered/C"
+        },
+        {
+          "key": "C2",
+          "label": "Pastel Sticker",
+          "blurb": "Soft pink die-cut sticker pointer with a ribbon-bunny friend charm.",
+          "material": "sticker",
+          "pointer": "blunt",
+          "scheme": "Cute - Sanrio Friends Remastered - C2 Pastel Sticker",
+          "path": "Sets/22-Sanrio-Friends-Remastered/C2-Pastel-Sticker",
+          "preview": "Previews/22-Sanrio-Friends-Remastered/C2"
+        }
+      ]
+    },
+    {
+      "num": 23,
+      "group": "Cute-Classic",
+      "slug": "23-Strawberry-Dream-Bakery",
+      "name": "Cute - Strawberry Dream Bakery",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Glazed Berry and Macarons",
+          "blurb": "A glossy ruby strawberry with pastel macarons and a cream dip.",
+          "material": "gloss",
+          "pointer": "drip",
+          "scheme": "Cute - Strawberry Dream Bakery - A Glazed Berry and Macarons",
+          "path": "Sets/23-Strawberry-Dream-Bakery/A-Glazed-Berry-and-Macarons",
+          "preview": "Previews/23-Strawberry-Dream-Bakery/A"
+        },
+        {
+          "key": "B",
+          "label": "Patisserie Cel Berry",
+          "blurb": "Hand-inked cream-dipped strawberry and mint/rose macarons.",
+          "material": "flat",
+          "pointer": "mini",
+          "scheme": "Cute - Strawberry Dream Bakery - B Patisserie Cel Berry",
+          "path": "Sets/23-Strawberry-Dream-Bakery/B-Patisserie-Cel-Berry",
+          "preview": "Previews/23-Strawberry-Dream-Bakery/B"
+        },
+        {
+          "key": "C",
+          "label": "Cozy Bakery Pixel",
+          "blurb": "Pastel pixel strawberry and a pixel macaron stack.",
+          "material": "pixel",
+          "pointer": "classic",
+          "scheme": "Cute - Strawberry Dream Bakery - C Cozy Bakery Pixel",
+          "path": "Sets/23-Strawberry-Dream-Bakery/C-Cozy-Bakery-Pixel",
+          "preview": "Previews/23-Strawberry-Dream-Bakery/C"
+        },
+        {
+          "key": "C2",
+          "label": "Berry Sticker",
+          "blurb": "Cream-and-strawberry die-cut sticker with a sparkly berry charm.",
+          "material": "sticker",
+          "pointer": "blunt",
+          "scheme": "Cute - Strawberry Dream Bakery - C2 Berry Sticker",
+          "path": "Sets/23-Strawberry-Dream-Bakery/C2-Berry-Sticker",
+          "preview": "Previews/23-Strawberry-Dream-Bakery/C2"
+        }
+      ]
+    },
+    {
+      "num": 24,
+      "group": "Cute-Classic",
+      "slug": "24-Spooky-Paws",
+      "name": "Cute - Spooky Paws",
+      "styles": [
+        {
+          "key": "A",
+          "label": "Plush Toe-Beans and Witch Hat",
+          "blurb": "A velvety black cat-paw pointer with squishy beans and a moon witch hat.",
+          "material": "gel",
+          "pointer": "sleek",
+          "scheme": "Cute - Spooky Paws - A Plush Toe-Beans and Witch Hat",
+          "path": "Sets/24-Spooky-Paws/A-Plush-Toe-Beans-and-Witch-Hat",
+          "preview": "Previews/24-Spooky-Paws/A"
+        },
+        {
+          "key": "B",
+          "label": "Illustrated Claws and Hat",
+          "blurb": "Cel-shaded black paw with tiny claws and a crescent-buckle witch hat.",
+          "material": "flat",
+          "pointer": "mini",
+          "scheme": "Cute - Spooky Paws - B Illustrated Claws and Hat",
+          "path": "Sets/24-Spooky-Paws/B-Illustrated-Claws-and-Hat",
+          "preview": "Previews/24-Spooky-Paws/B"
+        },
+        {
+          "key": "C",
+          "label": "Midnight Pixel Paw",
+          "blurb": "Pastel-goth pixel toe-bean paw and pixel witch hat.",
+          "material": "pixel",
+          "pointer": "sleek",
+          "scheme": "Cute - Spooky Paws - C Midnight Pixel Paw",
+          "path": "Sets/24-Spooky-Paws/C-Midnight-Pixel-Paw",
+          "preview": "Previews/24-Spooky-Paws/C"
+        },
+        {
+          "key": "C2",
+          "label": "Pumpkin Neon",
+          "blurb": "Jack-o'-lantern orange neon on midnight black with floating embers.",
+          "material": "neon",
+          "pointer": "wisp",
+          "scheme": "Cute - Spooky Paws - C2 Pumpkin Neon",
+          "path": "Sets/24-Spooky-Paws/C2-Pumpkin-Neon",
+          "preview": "Previews/24-Spooky-Paws/C2"
+        }
+      ]
+    }
+  ]
+}
