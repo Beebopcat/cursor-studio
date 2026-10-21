@@ -1,17 +1,18 @@
 <#
-  Cursor Studio - dark-mode cursor installer for Windows 11 (24 sets x 4 styles, animated or static).
+  Cursor Studio - dark-mode cursor installer for Windows 11 (24 sets x 7 styles, animated or static).
   Double-click Launch-CursorStudio.bat (or run this file with PowerShell).
 
   Headless usage (no window):
     .\CursorStudio.ps1 -List
     .\CursorStudio.ps1 -Set 01-Crystal-Dawn -Style A -Mode Animated -Apply
     .\CursorStudio.ps1 -Set 24 -Style C2 -Mode Static -InstallOnly
+    .\CursorStudio.ps1 -Set 01 -Style GA -Mode Animated -Apply      # GA/GB/GC = Gemini Originals
     .\CursorStudio.ps1 -Restore
 #>
 [CmdletBinding()]
 param(
     [string]$Set,
-    [ValidateSet('A','B','C','C2')][string]$Style = 'A',
+    [ValidateSet('A','B','C','C2','GA','GB','GC')][string]$Style = 'A',
     [ValidateSet('Animated','Static')][string]$Mode = 'Animated',
     [switch]$Apply, [switch]$InstallOnly, [switch]$Restore, [switch]$List
 )
@@ -79,7 +80,7 @@ $form.Add_HandleCreated({ $v = 1; [void][CursorStudio.Dwm]::DwmSetWindowAttribut
 $title = New-Object Windows.Forms.Label
 $title.Text = 'Cursor Studio'; $title.Font = $fontH; $title.AutoSize = $true; $title.Location = New-Object Drawing.Point(20, 14)
 $sub = New-Object Windows.Forms.Label
-$sub.Text = '24 sets - 4 styles each (A relic, B mascot, C gauntlet/HUD/pixel, C2 extra) - 17 pointers - animated .ani or static .cur'
+$sub.Text = '24 sets - 7 styles each (A relic, B mascot, C gauntlet/HUD/pixel, C2 extra, GA/GB/GC Gemini Originals) - 17 pointers - .ani or .cur'
 $sub.ForeColor = $cDim; $sub.AutoSize = $true; $sub.Location = New-Object Drawing.Point(22, 48)
 
 $tree = New-Object Windows.Forms.TreeView
@@ -102,21 +103,21 @@ foreach ($g in ($catalog.sets | Group-Object group)) {
 }
 
 $styleBox = New-Object Windows.Forms.Panel
-$styleBox.Location = New-Object Drawing.Point(340, 84); $styleBox.Size = New-Object Drawing.Size(740, 34); $styleBox.Anchor = 'Top,Left,Right'
+$styleBox.Location = New-Object Drawing.Point(340, 84); $styleBox.Size = New-Object Drawing.Size(740, 62); $styleBox.Anchor = 'Top,Left,Right'
 $rbStyle = @{}
-$x = 0
-foreach ($k in 'A', 'B', 'C', 'C2') { $r = New-DarkRadio "Style $k" $x 6; $rbStyle[$k] = $r; $styleBox.Controls.Add($r); $x += 110 }
+$styleKeys = @('A', 'B', 'C', 'C2', 'GA', 'GB', 'GC')       # GA/GB/GC = Gemini Originals (second row)
+foreach ($k in $styleKeys) { $r = New-DarkRadio "Style $k" 0 0; $rbStyle[$k] = $r; $styleBox.Controls.Add($r) }
 $rbStyle['A'].Checked = $true
 
 $lblStyle = New-Object Windows.Forms.Label
 $lblStyle.Font = $fontB; $lblStyle.AutoSize = $false; $lblStyle.Size = New-Object Drawing.Size(740, 22)
-$lblStyle.Location = New-Object Drawing.Point(340, 120); $lblStyle.Anchor = 'Top,Left,Right'
+$lblStyle.Location = New-Object Drawing.Point(340, 150); $lblStyle.Anchor = 'Top,Left,Right'
 $lblBlurb = New-Object Windows.Forms.Label
 $lblBlurb.ForeColor = $cDim; $lblBlurb.AutoSize = $false; $lblBlurb.Size = New-Object Drawing.Size(740, 22)
-$lblBlurb.Location = New-Object Drawing.Point(340, 142); $lblBlurb.Anchor = 'Top,Left,Right'
+$lblBlurb.Location = New-Object Drawing.Point(340, 172); $lblBlurb.Anchor = 'Top,Left,Right'
 
 $pic = New-Object Windows.Forms.PictureBox
-$pic.Location = New-Object Drawing.Point(340, 170); $pic.Size = New-Object Drawing.Size(740, 384)
+$pic.Location = New-Object Drawing.Point(340, 200); $pic.Size = New-Object Drawing.Size(740, 354)
 $pic.Anchor = 'Top,Left,Right'; $pic.BackColor = $cPanel; $pic.SizeMode = 'Zoom'
 
 $modeBox = New-Object Windows.Forms.Panel
@@ -142,13 +143,13 @@ $form.Controls.AddRange(@($title, $sub, $tree, $styleBox, $lblStyle, $lblBlurb, 
 
 $script:Current = $null
 function Get-Mode { if ($rbAnim.Checked) { 'Animated' } else { 'Static' } }
-function Get-StyleKey { foreach ($k in 'A', 'B', 'C', 'C2') { if ($rbStyle[$k].Checked) { return $k } } 'A' }
+function Get-StyleKey { foreach ($k in $styleKeys) { if ($rbStyle[$k].Checked) { return $k } } 'A' }
 function Get-CurrentStyle { if (-not $script:Current) { return $null } $script:Current.styles | Where-Object { $_.key -eq (Get-StyleKey) } | Select-Object -First 1 }
 
 function Show-Preview {
     $st = Get-CurrentStyle
     if (-not $st) { return }
-    foreach ($k in 'A', 'B', 'C', 'C2') { $s2 = $script:Current.styles | Where-Object { $_.key -eq $k }; if ($s2) { $rbStyle[$k].Text = "$k  $($s2.label)" } }
+    foreach ($k in $styleKeys) { $s2 = $script:Current.styles | Where-Object { $_.key -eq $k }; if ($s2) { $rbStyle[$k].Text = "$k  $($s2.label)" } }
     $file = if ((Get-Mode) -eq 'Animated') { 'board.gif' } else { 'board.png' }
     $p = Join-Path (Join-Path $Root $st.preview) $file
     if ($pic.Image) { $old = $pic.Image; $pic.Image = $null; $old.Dispose() }
@@ -156,10 +157,11 @@ function Show-Preview {
     $lblStyle.Text = "$($script:Current.name)  -  Style $($st.key): $($st.label)"
     $lblBlurb.Text = $st.blurb
 }
-foreach ($k in 'A', 'B', 'C', 'C2') { $rbStyle[$k].Add_CheckedChanged({ if ($this.Checked) { Show-Preview } }) }
+foreach ($k in $styleKeys) { $rbStyle[$k].Add_CheckedChanged({ if ($this.Checked) { Show-Preview } }) }
 $rbAnim.Add_CheckedChanged({ Show-Preview })
-foreach ($k in 'A', 'B', 'C', 'C2') { $rbStyle[$k].AutoSize = $false; $rbStyle[$k].Width = 180 }
-$x = 0; foreach ($k in 'A', 'B', 'C', 'C2') { $rbStyle[$k].Left = $x; $x += 185 }
+foreach ($k in $styleKeys) { $rbStyle[$k].AutoSize = $false }
+$x = 0; foreach ($k in 'A', 'B', 'C', 'C2') { $rbStyle[$k].SetBounds($x, 4, 180, 24); $x += 185 }
+$x = 0; foreach ($k in 'GA', 'GB', 'GC') { $rbStyle[$k].SetBounds($x, 32, 245, 24); $x += 247 }
 $tree.Add_AfterSelect({ if ($tree.SelectedNode -and $tree.SelectedNode.Tag) { $script:Current = $tree.SelectedNode.Tag; Show-Preview } })
 
 function Invoke-Action([scriptblock]$work, [string]$okText) {

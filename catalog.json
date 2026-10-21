@@ -133,6 +133,54 @@
           "scheme": "FFXIV - Crystal Dawn - C2 Crystal HUD Pixel",
           "path": "Sets/01-Crystal-Dawn/C2-Crystal-HUD-Pixel",
           "preview": "Previews/01-Crystal-Dawn/C2"
+        },
+        {
+          "key": "GA",
+          "label": "Aetherial Glaive Relic",
+          "blurb": "3D sculpted gold-filigree & cyan crystal spearhead with shimmering blade sweep",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "FFXIV - Crystal Dawn - GA Aetherial Glaive Relic",
+          "path": "Sets/01-Crystal-Dawn/GA-Aetherial-Glaive-Relic",
+          "preview": "Previews/01-Crystal-Dawn/GA",
+          "art": "Previews/01-Crystal-Dawn/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            4,
+            14
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Floating Mothercrystal",
+          "blurb": "Faceted Hydaelyn crystal cluster with orbiting aether shards & pulsing core",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "FFXIV - Crystal Dawn - GB Floating Mothercrystal",
+          "path": "Sets/01-Crystal-Dawn/GB-Floating-Mothercrystal",
+          "preview": "Previews/01-Crystal-Dawn/GB",
+          "art": "Previews/01-Crystal-Dawn/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            9,
+            14
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Eorzean Silver Gauntlet",
+          "blurb": "Armored Paladin gauntlet hand pointer with glowing cyan fingertip aura",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "FFXIV - Crystal Dawn - GC Eorzean Silver Gauntlet",
+          "path": "Sets/01-Crystal-Dawn/GC-Eorzean-Silver-Gauntlet",
+          "preview": "Previews/01-Crystal-Dawn/GC",
+          "art": "Previews/01-Crystal-Dawn/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            8,
+            10
+          ]
         }
       ]
     },
@@ -181,6 +229,54 @@
           "scheme": "FFXIV - Chocobo Caravan - C2 Pixel Chocobo Caravan",
           "path": "Sets/02-Chocobo-Caravan/C2-Pixel-Chocobo-Caravan",
           "preview": "Previews/02-Chocobo-Caravan/C2"
+        },
+        {
+          "key": "GA",
+          "label": "Golden Plume Blade",
+          "blurb": "3D feathered bronze-and-gold caravan pointer with glowing amber gem",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "FFXIV - Chocobo Caravan - GA Golden Plume Blade",
+          "path": "Sets/02-Chocobo-Caravan/GA-Golden-Plume-Blade",
+          "preview": "Previews/02-Chocobo-Caravan/GA",
+          "art": "Previews/02-Chocobo-Caravan/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            3,
+            14
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Adventurer Chocobo Mascot",
+          "blurb": "Expressive hatted golden Chocobo pointing with its wing & bobbing plume",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "FFXIV - Chocobo Caravan - GB Adventurer Chocobo Mascot",
+          "path": "Sets/02-Chocobo-Caravan/GB-Adventurer-Chocobo-Mascot",
+          "preview": "Previews/02-Chocobo-Caravan/GB",
+          "art": "Previews/02-Chocobo-Caravan/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            1,
+            10
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Caravan Tack Gauntlet",
+          "blurb": "Studded Eorzean leather bracer gauntlet with golden Chocobo emblem",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "FFXIV - Chocobo Caravan - GC Caravan Tack Gauntlet",
+          "path": "Sets/02-Chocobo-Caravan/GC-Caravan-Tack-Gauntlet",
+          "preview": "Previews/02-Chocobo-Caravan/GC",
+          "art": "Previews/02-Chocobo-Caravan/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            12,
+            9
+          ]
         }
       ]
     },
@@ -229,6 +325,54 @@
           "scheme": "FFXIV - Void and Moon - C2 Void Pixel",
           "path": "Sets/03-Void-and-Moon/C2-Void-Pixel",
           "preview": "Previews/03-Void-and-Moon/C2"
+        },
+        {
+          "key": "GA",
+          "label": "Abyssal Voidblade",
+          "blurb": "Obsidian-and-gold Reaper dagger infused with pulsing purple voidlight",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "FFXIV - Void and Moon - GA Abyssal Voidblade",
+          "path": "Sets/03-Void-and-Moon/GA-Abyssal-Voidblade",
+          "preview": "Previews/03-Void-and-Moon/GA",
+          "art": "Previews/03-Void-and-Moon/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            3,
+            14
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Lunar Eclipse Avatar",
+          "blurb": "Grinning purple crescent moon with glowing crimson Void Avatar eye",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "FFXIV - Void and Moon - GB Lunar Eclipse Avatar",
+          "path": "Sets/03-Void-and-Moon/GB-Lunar-Eclipse-Avatar",
+          "preview": "Previews/03-Void-and-Moon/GB",
+          "art": "Previews/03-Void-and-Moon/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            6,
+            6
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Arcane Void Reticle",
+          "blurb": "Rotating Eorzean runic spell circle & glowing violet target spear",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "FFXIV - Void and Moon - GC Arcane Void Reticle",
+          "path": "Sets/03-Void-and-Moon/GC-Arcane-Void-Reticle",
+          "preview": "Previews/03-Void-and-Moon/GC",
+          "art": "Previews/03-Void-and-Moon/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            14,
+            12
+          ]
         }
       ]
     },
@@ -277,6 +421,54 @@
           "scheme": "FFXIV - A Realm Reborn - C2 Calamity Pixel",
           "path": "Sets/04-A-Realm-Reborn/C2-Calamity-Pixel",
           "preview": "Previews/04-A-Realm-Reborn/C2"
+        },
+        {
+          "key": "GA",
+          "label": "Bahamut Crimson Relic",
+          "blurb": "Ornate gold-and-ruby relic sword radiating Calamity flare embers",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "FFXIV - A Realm Reborn - GA Bahamut Crimson Relic",
+          "path": "Sets/04-A-Realm-Reborn/GA-Bahamut-Crimson-Relic",
+          "preview": "Previews/04-A-Realm-Reborn/GA",
+          "art": "Previews/04-A-Realm-Reborn/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            3,
+            14
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Blazing Dalamud Meteor",
+          "blurb": "Iconic descending crimson Dalamud meteor with animated flame trail",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "FFXIV - A Realm Reborn - GB Blazing Dalamud Meteor",
+          "path": "Sets/04-A-Realm-Reborn/GB-Blazing-Dalamud-Meteor",
+          "preview": "Previews/04-A-Realm-Reborn/GB",
+          "art": "Previews/04-A-Realm-Reborn/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            2,
+            8
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Meteor Sigil Gauntlet",
+          "blurb": "Black-iron Grand Company gauntlet projecting a glowing orange target rune",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "FFXIV - A Realm Reborn - GC Meteor Sigil Gauntlet",
+          "path": "Sets/04-A-Realm-Reborn/GC-Meteor-Sigil-Gauntlet",
+          "preview": "Previews/04-A-Realm-Reborn/GC",
+          "art": "Previews/04-A-Realm-Reborn/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            10,
+            12
+          ]
         }
       ]
     },
@@ -325,6 +517,54 @@
           "scheme": "WoW - Frostmourne Icecrown - C2 Frozen Throne HUD",
           "path": "Sets/05-Frostmourne-Icecrown/C2-Frozen-Throne-HUD",
           "preview": "Previews/05-Frostmourne-Icecrown/C2"
+        },
+        {
+          "key": "GA",
+          "label": "Frostmourne Runeblade",
+          "blurb": "3D sculpted Lich King runeblade with horned skull guard & icy mist",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "WoW - Frostmourne Icecrown - GA Frostmourne Runeblade",
+          "path": "Sets/05-Frostmourne-Icecrown/GA-Frostmourne-Runeblade",
+          "preview": "Previews/05-Frostmourne-Icecrown/GA",
+          "art": "Previews/05-Frostmourne-Icecrown/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            1,
+            2
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Helm of Domination",
+          "blurb": "Crown of the Lich King with blazing blue eyes & swirling blizzard vortex",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "WoW - Frostmourne Icecrown - GB Helm of Domination",
+          "path": "Sets/05-Frostmourne-Icecrown/GB-Helm-of-Domination",
+          "preview": "Previews/05-Frostmourne-Icecrown/GB",
+          "art": "Previews/05-Frostmourne-Icecrown/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            3,
+            1
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Icecrown War-Gauntlet",
+          "blurb": "Spiked saronite Death Knight gauntlet etched with glowing frost runes",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "WoW - Frostmourne Icecrown - GC Icecrown War-Gauntlet",
+          "path": "Sets/05-Frostmourne-Icecrown/GC-Icecrown-War-Gauntlet",
+          "preview": "Previews/05-Frostmourne-Icecrown/GC",
+          "art": "Previews/05-Frostmourne-Icecrown/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            5,
+            1
+          ]
         }
       ]
     },
@@ -373,6 +613,54 @@
           "scheme": "WoW - Ashbringer and Silver Hand - C2 Light HUD Pixel",
           "path": "Sets/06-Ashbringer-Silver-Hand/C2-Light-HUD-Pixel",
           "preview": "Previews/06-Ashbringer-Silver-Hand/C2"
+        },
+        {
+          "key": "GA",
+          "label": "Radiant Ashbringer",
+          "blurb": "Golden Highlord greatsword with levitating Holy Light orb & spark trail",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "WoW - Ashbringer and Silver Hand - GA Radiant Ashbringer",
+          "path": "Sets/06-Ashbringer-Silver-Hand/GA-Radiant-Ashbringer",
+          "preview": "Previews/06-Ashbringer-Silver-Hand/GA",
+          "art": "Previews/06-Ashbringer-Silver-Hand/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            1,
+            3
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Swirling Hearthstone",
+          "blurb": "Golden-framed Hearthstone shield with rotating azure portal spiral",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "WoW - Ashbringer and Silver Hand - GB Swirling Hearthstone",
+          "path": "Sets/06-Ashbringer-Silver-Hand/GB-Swirling-Hearthstone",
+          "preview": "Previews/06-Ashbringer-Silver-Hand/GB",
+          "art": "Previews/06-Ashbringer-Silver-Hand/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            2,
+            2
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Silver Hand Gauntlet",
+          "blurb": "Lion-crested golden Paladin plate gauntlet with glowing holy runes",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "WoW - Ashbringer and Silver Hand - GC Silver Hand Gauntlet",
+          "path": "Sets/06-Ashbringer-Silver-Hand/GC-Silver-Hand-Gauntlet",
+          "preview": "Previews/06-Ashbringer-Silver-Hand/GC",
+          "art": "Previews/06-Ashbringer-Silver-Hand/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            4,
+            2
+          ]
         }
       ]
     },
@@ -421,6 +709,54 @@
           "scheme": "WoW - Dalaran Arcane and Emerald Dream - C2 Arcane Neon Sigil",
           "path": "Sets/07-Dalaran-Arcane-Emerald-Dream/C2-Arcane-Neon-Sigil",
           "preview": "Previews/07-Dalaran-Arcane-Emerald-Dream/C2"
+        },
+        {
+          "key": "GA",
+          "label": "Kirin Tor Crystal Blade",
+          "blurb": "Floating violet arcane crystal sword with orbiting mana shards",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "WoW - Dalaran Arcane and Emerald Dream - GA Kirin Tor Crystal Blade",
+          "path": "Sets/07-Dalaran-Arcane-Emerald-Dream/GA-Kirin-Tor-Crystal-Blade",
+          "preview": "Previews/07-Dalaran-Arcane-Emerald-Dream/GA",
+          "art": "Previews/07-Dalaran-Arcane-Emerald-Dream/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            1,
+            4
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Eye of Dalaran & Dream",
+          "blurb": "Golden Kirin Tor Eye wrapped in bioluminescent Emerald Dream vines",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "WoW - Dalaran Arcane and Emerald Dream - GB Eye of Dalaran & Dream",
+          "path": "Sets/07-Dalaran-Arcane-Emerald-Dream/GB-Eye-of-Dalaran-Dream",
+          "preview": "Previews/07-Dalaran-Arcane-Emerald-Dream/GB",
+          "art": "Previews/07-Dalaran-Arcane-Emerald-Dream/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            2,
+            3
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Archmage Runic Gauntlet",
+          "blurb": "Violet-and-gold Dalaran gauntlet traced with living emerald filigree",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "WoW - Dalaran Arcane and Emerald Dream - GC Archmage Runic Gauntlet",
+          "path": "Sets/07-Dalaran-Arcane-Emerald-Dream/GC-Archmage-Runic-Gauntlet",
+          "preview": "Previews/07-Dalaran-Arcane-Emerald-Dream/GC",
+          "art": "Previews/07-Dalaran-Arcane-Emerald-Dream/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            6,
+            6
+          ]
         }
       ]
     },
@@ -469,6 +805,54 @@
           "scheme": "Goosebumps - Monster Blood - C2 Paperback Cover Ink",
           "path": "Sets/08-Monster-Blood/C2-Paperback-Cover-Ink",
           "preview": "Previews/08-Monster-Blood/C2"
+        },
+        {
+          "key": "GA",
+          "label": "3D Glossy Slime & Canister",
+          "blurb": "Translucent oozing green Monster Blood arrow & metallic purple canister",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Goosebumps - Monster Blood - GA 3D Glossy Slime & Canister",
+          "path": "Sets/08-Monster-Blood/GA-3D-Glossy-Slime-Canister",
+          "preview": "Previews/08-Monster-Blood/GA",
+          "art": "Previews/08-Monster-Blood/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            8,
+            10
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Living Slime Monster Mascot",
+          "blurb": "Grinning bubbling green slime creature & hazard canister spinner",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Goosebumps - Monster Blood - GB Living Slime Monster Mascot",
+          "path": "Sets/08-Monster-Blood/GB-Living-Slime-Monster-Mascot",
+          "preview": "Previews/08-Monster-Blood/GB",
+          "art": "Previews/08-Monster-Blood/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            11,
+            10
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Retro 16-Bit Neon Pixel Art",
+          "blurb": "Crisp 90s arcade pixel-art dripping neon green pointer & purple tub",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Goosebumps - Monster Blood - GC Retro 16-Bit Neon Pixel Art",
+          "path": "Sets/08-Monster-Blood/GC-Retro-16-Bit-Neon-Pixel-Art",
+          "preview": "Previews/08-Monster-Blood/GC",
+          "art": "Previews/08-Monster-Blood/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            12,
+            11
+          ]
         }
       ]
     },
@@ -517,6 +901,54 @@
           "scheme": "Goosebumps - Revenge of the Lawn Gnomes - C2 Haunted Garden Neon",
           "path": "Sets/09-Lawn-Gnomes/C2-Haunted-Garden-Neon",
           "preview": "Previews/09-Lawn-Gnomes/C2"
+        },
+        {
+          "key": "GA",
+          "label": "3D Ceramic Gnome & Flamingo",
+          "blurb": "Sculpted red-cap terracotta gnome pointer & glossy pink lawn flamingo",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Goosebumps - Revenge of the Lawn Gnomes - GA 3D Ceramic Gnome & Flamingo",
+          "path": "Sets/09-Lawn-Gnomes/GA-3D-Ceramic-Gnome-Flamingo",
+          "preview": "Previews/09-Lawn-Gnomes/GA",
+          "art": "Previews/09-Lawn-Gnomes/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            8,
+            10
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Sinister Grinning Gnome Mascot",
+          "blurb": "Waving yellow-eyed mischief gnome & startled pink flamingo spinner",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Goosebumps - Revenge of the Lawn Gnomes - GB Sinister Grinning Gnome Mascot",
+          "path": "Sets/09-Lawn-Gnomes/GB-Sinister-Grinning-Gnome-Mascot",
+          "preview": "Previews/09-Lawn-Gnomes/GB",
+          "art": "Previews/09-Lawn-Gnomes/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            13,
+            13
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Retro 16-Bit Pixel Gnome",
+          "blurb": "Vibrant neon-outlined pixel-art lawn gnome & pink flamingo",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Goosebumps - Revenge of the Lawn Gnomes - GC Retro 16-Bit Pixel Gnome",
+          "path": "Sets/09-Lawn-Gnomes/GC-Retro-16-Bit-Pixel-Gnome",
+          "preview": "Previews/09-Lawn-Gnomes/GC",
+          "art": "Previews/09-Lawn-Gnomes/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            14,
+            11
+          ]
         }
       ]
     },
@@ -565,6 +997,54 @@
           "scheme": "GW2 - Blish (Golemite) - C2 Golemite Pixel",
           "path": "Sets/10-Blish/C2-Golemite-Pixel",
           "preview": "Previews/10-Blish/C2"
+        },
+        {
+          "key": "GA",
+          "label": "Sculpted Golem Chassis Spear",
+          "blurb": "Blish's ivory-and-gold Asuran golem torso & glowing cyan Synergetics spearhead",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Blish (Golemite) - GA Sculpted Golem Chassis Spear",
+          "path": "Sets/10-Blish/GA-Sculpted-Golem-Chassis-Spear",
+          "preview": "Previews/10-Blish/GA",
+          "art": "Previews/10-Blish/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            15,
+            3
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Hovering Blish Optic & Holo-Cursor",
+          "blurb": "Blish's spherical golem head with glowing cyan eyes & floating hardlight arrow",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Blish (Golemite) - GB Hovering Blish Optic & Holo-Cursor",
+          "path": "Sets/10-Blish/GB-Hovering-Blish-Optic-Holo-Cursor",
+          "preview": "Previews/10-Blish/GB",
+          "art": "Previews/10-Blish/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            8,
+            9
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Painterly Synergetics Hardlight",
+          "blurb": "ArenaNet-style cyan/gold brushstroke chevron with glowing Asuran glyphs",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Blish (Golemite) - GC Painterly Synergetics Hardlight",
+          "path": "Sets/10-Blish/GC-Painterly-Synergetics-Hardlight",
+          "preview": "Previews/10-Blish/GC",
+          "art": "Previews/10-Blish/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            6,
+            11
+          ]
         }
       ]
     },
@@ -613,6 +1093,54 @@
           "scheme": "GW2 - Tybalt Leftpaw - C2 Charr Pixel",
           "path": "Sets/11-Tybalt-Leftpaw/C2-Charr-Pixel",
           "preview": "Previews/11-Tybalt-Leftpaw/C2"
+        },
+        {
+          "key": "GA",
+          "label": "Lightbringer Portrait & Dagger",
+          "blurb": "Tybalt's eyepatch Charr crest crowned with the Order of Whispers winged dagger",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Tybalt Leftpaw - GA Lightbringer Portrait & Dagger",
+          "path": "Sets/11-Tybalt-Leftpaw/GA-Lightbringer-Portrait-Dagger",
+          "preview": "Previews/11-Tybalt-Leftpaw/GA",
+          "art": "Previews/11-Tybalt-Leftpaw/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            14,
+            2
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Bitten Cider Apple & Charr Paw",
+          "blurb": "Glossy bitten red Cider Apple, brass engineer gears & Tybalt's Charr paw",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Tybalt Leftpaw - GB Bitten Cider Apple & Charr Paw",
+          "path": "Sets/11-Tybalt-Leftpaw/GB-Bitten-Cider-Apple-Charr-Paw",
+          "preview": "Previews/11-Tybalt-Leftpaw/GB",
+          "art": "Previews/11-Tybalt-Leftpaw/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            7,
+            8
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Painterly Clockwork Brushstroke",
+          "blurb": "Fiery amber brushstroke arrow driven by interlocking Iron Legion gears",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Tybalt Leftpaw - GC Painterly Clockwork Brushstroke",
+          "path": "Sets/11-Tybalt-Leftpaw/GC-Painterly-Clockwork-Brushstroke",
+          "preview": "Previews/11-Tybalt-Leftpaw/GC",
+          "art": "Previews/11-Tybalt-Leftpaw/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            5,
+            15
+          ]
         }
       ]
     },
@@ -661,6 +1189,54 @@
           "scheme": "GW2 - Taimi and Scruffy 2.0 - C2 Taimi Pixel",
           "path": "Sets/12-Taimi-and-Scruffy/C2-Taimi-Pixel",
           "preview": "Previews/12-Taimi-and-Scruffy/C2"
+        },
+        {
+          "key": "GA",
+          "label": "Scruffy 2.0 Mech & Holo-Bow Spear",
+          "blurb": "Full Scruffy 2.0 teal-and-pink golem piloted by Taimi beneath her neon bow tip",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Taimi and Scruffy 2.0 - GA Scruffy 2.0 Mech & Holo-Bow Spear",
+          "path": "Sets/12-Taimi-and-Scruffy/GA-Scruffy-2-0-Mech-Holo-Bow-Spear",
+          "preview": "Previews/12-Taimi-and-Scruffy/GA",
+          "art": "Previews/12-Taimi-and-Scruffy/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            10,
+            4
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Chibi Taimi & Scruffy Gauntlet",
+          "blurb": "Expressive Taimi mascot with twin Scruffy 2.0 mech fists",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Taimi and Scruffy 2.0 - GB Chibi Taimi & Scruffy Gauntlet",
+          "path": "Sets/12-Taimi-and-Scruffy/GB-Chibi-Taimi-Scruffy-Gauntlet",
+          "preview": "Previews/12-Taimi-and-Scruffy/GB",
+          "art": "Previews/12-Taimi-and-Scruffy/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            8,
+            10
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Neon Hardlight Bow & Matrix Chevron",
+          "blurb": "Glowing magenta-and-cyan Asuran hologram bow projecting a laser pointer",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Taimi and Scruffy 2.0 - GC Neon Hardlight Bow & Matrix Chevron",
+          "path": "Sets/12-Taimi-and-Scruffy/GC-Neon-Hardlight-Bow-Matrix-Chevron",
+          "preview": "Previews/12-Taimi-and-Scruffy/GC",
+          "art": "Previews/12-Taimi-and-Scruffy/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            10,
+            11
+          ]
         }
       ]
     },
@@ -709,6 +1285,54 @@
           "scheme": "GW2 - Canach - C2 Sylvari Pixel",
           "path": "Sets/13-Canach/C2-Sylvari-Pixel",
           "preview": "Previews/13-Canach/C2"
+        },
+        {
+          "key": "GA",
+          "label": "Bioluminescent Vine Spear",
+          "blurb": "Twisted thorny emerald Sylvari spear with glowing green sap & spores",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Canach - GA Bioluminescent Vine Spear",
+          "path": "Sets/13-Canach/GA-Bioluminescent-Vine-Spear",
+          "preview": "Previews/13-Canach/GA",
+          "art": "Previews/13-Canach/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            2,
+            14
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Glowing Jungle Blossom Bomb",
+          "blurb": "Canach's bioluminescent golden-emerald flower detonator wrapped in brambles",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Canach - GB Glowing Jungle Blossom Bomb",
+          "path": "Sets/13-Canach/GB-Glowing-Jungle-Blossom-Bomb",
+          "preview": "Previews/13-Canach/GB",
+          "art": "Previews/13-Canach/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            14,
+            10
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Mercenary Shield-Dagger",
+          "blurb": "Ironwood-and-brass Consortium shield fused with a thorny emerald blade",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Canach - GC Mercenary Shield-Dagger",
+          "path": "Sets/13-Canach/GC-Mercenary-Shield-Dagger",
+          "preview": "Previews/13-Canach/GC",
+          "art": "Previews/13-Canach/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            6,
+            14
+          ]
         }
       ]
     },
@@ -757,6 +1381,54 @@
           "scheme": "GW2 - Palawa Joko - C2 Joko Pixel",
           "path": "Sets/14-Palawa-Joko/C2-Joko-Pixel",
           "preview": "Previews/14-Palawa-Joko/C2"
+        },
+        {
+          "key": "GA",
+          "label": "Awakened Crescent Bone Staff",
+          "blurb": "Mummified golden crescent scepter wreathed in necrotic green soulfire",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Palawa Joko - GA Awakened Crescent Bone Staff",
+          "path": "Sets/14-Palawa-Joko/GA-Awakened-Crescent-Bone-Staff",
+          "preview": "Previews/14-Palawa-Joko/GA",
+          "art": "Previews/14-Palawa-Joko/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            6,
+            9
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Undying Lich Pharaoh Skull",
+          "blurb": "Palawa Joko's horned golden nemes crown & skull blazing with emerald fire",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Palawa Joko - GB Undying Lich Pharaoh Skull",
+          "path": "Sets/14-Palawa-Joko/GB-Undying-Lich-Pharaoh-Skull",
+          "preview": "Previews/14-Palawa-Joko/GB",
+          "art": "Previews/14-Palawa-Joko/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            12,
+            11
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Mummified Royal Scarab",
+          "blurb": "Bandaged golden Vabbian scarab beetle with glowing necrotic green trail",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Palawa Joko - GC Mummified Royal Scarab",
+          "path": "Sets/14-Palawa-Joko/GC-Mummified-Royal-Scarab",
+          "preview": "Previews/14-Palawa-Joko/GC",
+          "art": "Previews/14-Palawa-Joko/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            5,
+            12
+          ]
         }
       ]
     },
@@ -805,6 +1477,54 @@
           "scheme": "GW2 - Tyrian Legends Ensemble - C2 Pixel Heroes",
           "path": "Sets/15-Tyrian-Legends/C2-Pixel-Heroes",
           "preview": "Previews/15-Tyrian-Legends/C2"
+        },
+        {
+          "key": "GA",
+          "label": "Aurene Prismatic Spear / Dragon Head",
+          "blurb": "3D sculpted prismatic crystal spear & fiery crimson dragon silhouette",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Tyrian Legends Ensemble - GA Aurene Prismatic Spear / Dragon Head",
+          "path": "Sets/15-Tyrian-Legends/GA-Aurene-Prismatic-Spear-Dragon-Head",
+          "preview": "Previews/15-Tyrian-Legends/GA",
+          "art": "Previews/15-Tyrian-Legends/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            3,
+            21
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Prismatic Commander Tag Crest",
+          "blurb": "Glowing 5-color Commander Tag emblem & winged dragon crest",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Tyrian Legends Ensemble - GB Prismatic Commander Tag Crest",
+          "path": "Sets/15-Tyrian-Legends/GB-Prismatic-Commander-Tag-Crest",
+          "preview": "Previews/15-Tyrian-Legends/GB",
+          "art": "Previews/15-Tyrian-Legends/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            9,
+            11
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Painterly Crimson Dragon Wing",
+          "blurb": "Authentic ArenaNet fiery crimson brushstroke dragon-wing pointer",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Tyrian Legends Ensemble - GC Painterly Crimson Dragon Wing",
+          "path": "Sets/15-Tyrian-Legends/GC-Painterly-Crimson-Dragon-Wing",
+          "preview": "Previews/15-Tyrian-Legends/GC",
+          "art": "Previews/15-Tyrian-Legends/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            7,
+            13
+          ]
         }
       ]
     },
@@ -853,6 +1573,54 @@
           "scheme": "GW2 - Blish and Taimi Magitech - C2 Magitech Pixel",
           "path": "Sets/16-Blish-and-Taimi-Magitech/C2-Magitech-Pixel",
           "preview": "Previews/16-Blish-and-Taimi-Magitech/C2"
+        },
+        {
+          "key": "GA",
+          "label": "Asuran Golem Hardlight Gauntlet",
+          "blurb": "Sculpted gold-and-ivory golem gauntlet fused with neon magenta circuitry",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Blish and Taimi Magitech - GA Asuran Golem Hardlight Gauntlet",
+          "path": "Sets/16-Blish-and-Taimi-Magitech/GA-Asuran-Golem-Hardlight-Gauntlet",
+          "preview": "Previews/16-Blish-and-Taimi-Magitech/GA",
+          "art": "Previews/16-Blish-and-Taimi-Magitech/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            2,
+            11
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Eternal Alchemy Polyhedron Core",
+          "blurb": "Interlocking cyan-and-pink holo-icosahedron with Blish & Scruffy optical lenses",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Blish and Taimi Magitech - GB Eternal Alchemy Polyhedron Core",
+          "path": "Sets/16-Blish-and-Taimi-Magitech/GB-Eternal-Alchemy-Polyhedron-Core",
+          "preview": "Previews/16-Blish-and-Taimi-Magitech/GB",
+          "art": "Previews/16-Blish-and-Taimi-Magitech/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            10,
+            9
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Holographic Target Emitter",
+          "blurb": "Sleek cyan-and-magenta geometric laser pointer & target reticle",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Blish and Taimi Magitech - GC Holographic Target Emitter",
+          "path": "Sets/16-Blish-and-Taimi-Magitech/GC-Holographic-Target-Emitter",
+          "preview": "Previews/16-Blish-and-Taimi-Magitech/GC",
+          "art": "Previews/16-Blish-and-Taimi-Magitech/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            4,
+            13
+          ]
         }
       ]
     },
@@ -901,6 +1669,54 @@
           "scheme": "GW2 - Canach, Joko and Tybalt - C2 Trio Pixel",
           "path": "Sets/17-Canach-Joko-Tybalt/C2-Trio-Pixel",
           "preview": "Previews/17-Canach-Joko-Tybalt/C2"
+        },
+        {
+          "key": "GA",
+          "label": "Apple, Crescent & Thorn Dagger",
+          "blurb": "Ornate dagger uniting Tybalt's bitten apple pommel, Joko's gold crescent & Canach's vine blade",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Canach, Joko and Tybalt - GA Apple, Crescent & Thorn Dagger",
+          "path": "Sets/17-Canach-Joko-Tybalt/GA-Apple-Crescent-Thorn-Dagger",
+          "preview": "Previews/17-Canach-Joko-Tybalt/GA",
+          "art": "Previews/17-Canach-Joko-Tybalt/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            0,
+            14
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Dramatic Tri-Crest Medallion",
+          "blurb": "Bitten red cider apple, spiky green Sylvari bomb & golden Awakened scarab in green fire",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Canach, Joko and Tybalt - GB Dramatic Tri-Crest Medallion",
+          "path": "Sets/17-Canach-Joko-Tybalt/GB-Dramatic-Tri-Crest-Medallion",
+          "preview": "Previews/17-Canach-Joko-Tybalt/GB",
+          "art": "Previews/17-Canach-Joko-Tybalt/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            11,
+            12
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Dark Painterly Brushstroke Blade",
+          "blurb": "Sweeping obsidian, gold & crimson ArenaNet brushstroke war-pointer",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "GW2 - Canach, Joko and Tybalt - GC Dark Painterly Brushstroke Blade",
+          "path": "Sets/17-Canach-Joko-Tybalt/GC-Dark-Painterly-Brushstroke-Blade",
+          "preview": "Previews/17-Canach-Joko-Tybalt/GC",
+          "art": "Previews/17-Canach-Joko-Tybalt/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            8,
+            13
+          ]
         }
       ]
     },
@@ -949,6 +1765,54 @@
           "scheme": "Pokemon - Kanto Companions - C2 Pocket Monochrome",
           "path": "Sets/18-Kanto-Companions/C2-Pocket-Monochrome",
           "preview": "Previews/18-Kanto-Companions/C2"
+        },
+        {
+          "key": "GA",
+          "label": "3D Glossy Tail & Pok\u00e9 Ball",
+          "blurb": "Smooth 3D sculpted yellow Pikachu tail & metallic red-and-white Pok\u00e9 Ball",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Pokemon - Kanto Companions - GA 3D Glossy Tail & Pok\u00e9 Ball",
+          "path": "Sets/18-Kanto-Companions/GA-3D-Glossy-Tail-Pok-Ball",
+          "preview": "Previews/18-Kanto-Companions/GA",
+          "art": "Previews/18-Kanto-Companions/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            7,
+            10
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Anime Spark Tail & Pok\u00e9 Ball",
+          "blurb": "Dynamic cel-shaded lightning bolt tail crackling with sparks & Pok\u00e9 Ball",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Pokemon - Kanto Companions - GB Anime Spark Tail & Pok\u00e9 Ball",
+          "path": "Sets/18-Kanto-Companions/GB-Anime-Spark-Tail-Pok-Ball",
+          "preview": "Previews/18-Kanto-Companions/GB",
+          "art": "Previews/18-Kanto-Companions/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            13,
+            12
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "16-Bit GBA Pixel Art",
+          "blurb": "Crisp neon-outlined pixel-art Pikachu bolt & classic pixel Pok\u00e9 Ball",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Pokemon - Kanto Companions - GC 16-Bit GBA Pixel Art",
+          "path": "Sets/18-Kanto-Companions/GC-16-Bit-GBA-Pixel-Art",
+          "preview": "Previews/18-Kanto-Companions/GC",
+          "art": "Previews/18-Kanto-Companions/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            15,
+            12
+          ]
         }
       ]
     },
@@ -997,6 +1861,54 @@
           "scheme": "Pokemon - Ghost Parade - C2 Haunting Gas Neon",
           "path": "Sets/19-Ghost-Parade/C2-Haunting-Gas-Neon",
           "preview": "Previews/19-Ghost-Parade/C2"
+        },
+        {
+          "key": "GA",
+          "label": "3D Shadow Spirit & Soul Candle",
+          "blurb": "Glossy 3D amethyst ghost silhouette & glowing blue-violet Litwick candle",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Pokemon - Ghost Parade - GA 3D Shadow Spirit & Soul Candle",
+          "path": "Sets/19-Ghost-Parade/GA-3D-Shadow-Spirit-Soul-Candle",
+          "preview": "Previews/19-Ghost-Parade/GA",
+          "art": "Previews/19-Ghost-Parade/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            6,
+            12
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Grinning Gengar & Cute Litwick",
+          "blurb": "Expressive anime Gengar with mischievous grin & happy Litwick mascot",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Pokemon - Ghost Parade - GB Grinning Gengar & Cute Litwick",
+          "path": "Sets/19-Ghost-Parade/GB-Grinning-Gengar-Cute-Litwick",
+          "preview": "Previews/19-Ghost-Parade/GB",
+          "art": "Previews/19-Ghost-Parade/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            11,
+            13
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Lavender Tower 16-Bit Pixel Art",
+          "blurb": "Retro neon-purple pixel-art Gengar & flickering pixel Litwick flame",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Pokemon - Ghost Parade - GC Lavender Tower 16-Bit Pixel Art",
+          "path": "Sets/19-Ghost-Parade/GC-Lavender-Tower-16-Bit-Pixel-Art",
+          "preview": "Previews/19-Ghost-Parade/GC",
+          "art": "Previews/19-Ghost-Parade/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            13,
+            12
+          ]
         }
       ]
     },
@@ -1045,6 +1957,54 @@
           "scheme": "Simpsons - Springfield Donuts - C2 Springfield Sticker",
           "path": "Sets/20-Springfield-Donuts/C2-Springfield-Sticker",
           "preview": "Previews/20-Springfield-Donuts/C2"
+        },
+        {
+          "key": "GA",
+          "label": "Plush 3D Hand & Frosted Donut",
+          "blurb": "Soft 3D sculpted yellow 4-finger cartoon hand & glossy pink sprinkled donut",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Simpsons - Springfield Donuts - GA Plush 3D Hand & Frosted Donut",
+          "path": "Sets/20-Springfield-Donuts/GA-Plush-3D-Hand-Frosted-Donut",
+          "preview": "Previews/20-Springfield-Donuts/GA",
+          "art": "Previews/20-Springfield-Donuts/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            2,
+            13
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Cel-Shaded Cartoon & Kawaii Donut",
+          "blurb": "Bold inked Simpsons yellow hand & smiling pink frosted donut mascot",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Simpsons - Springfield Donuts - GB Cel-Shaded Cartoon & Kawaii Donut",
+          "path": "Sets/20-Springfield-Donuts/GB-Cel-Shaded-Cartoon-Kawaii-Donut",
+          "preview": "Previews/20-Springfield-Donuts/GB",
+          "art": "Previews/20-Springfield-Donuts/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            5,
+            13
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Arcade 16-Bit Pixel Hand & Donut",
+          "blurb": "Retro Simpsons arcade style pixel-art yellow hand & sprinkled donut",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Simpsons - Springfield Donuts - GC Arcade 16-Bit Pixel Hand & Donut",
+          "path": "Sets/20-Springfield-Donuts/GC-Arcade-16-Bit-Pixel-Hand-Donut",
+          "preview": "Previews/20-Springfield-Donuts/GC",
+          "art": "Previews/20-Springfield-Donuts/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            7,
+            13
+          ]
         }
       ]
     },
@@ -1093,6 +2053,54 @@
           "scheme": "Simpsons - Nuclear Nightshift - C2 Control Room Neon",
           "path": "Sets/21-Nuclear-Nightshift/C2-Control-Room-Neon",
           "preview": "Previews/21-Nuclear-Nightshift/C2"
+        },
+        {
+          "key": "GA",
+          "label": "3D Glowing Carbon Rod & Blinky",
+          "blurb": "Neon-green glowing Inanimate Carbon Rod & 3D sculpted 3-eyed Blinky",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Simpsons - Nuclear Nightshift - GA 3D Glowing Carbon Rod & Blinky",
+          "path": "Sets/21-Nuclear-Nightshift/GA-3D-Glowing-Carbon-Rod-Blinky",
+          "preview": "Previews/21-Nuclear-Nightshift/GA",
+          "art": "Previews/21-Nuclear-Nightshift/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            3,
+            14
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Oozing Cartoon Rod & Blinky",
+          "blurb": "Dripping radioactive cel-shaded rod & wide-eyed cartoon Blinky the Fish",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Simpsons - Nuclear Nightshift - GB Oozing Cartoon Rod & Blinky",
+          "path": "Sets/21-Nuclear-Nightshift/GB-Oozing-Cartoon-Rod-Blinky",
+          "preview": "Previews/21-Nuclear-Nightshift/GB",
+          "art": "Previews/21-Nuclear-Nightshift/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            7,
+            15
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Sector 7G 16-Bit Pixel Art",
+          "blurb": "Crisp pixel-art plutonium rod & pixel Blinky spinner",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Simpsons - Nuclear Nightshift - GC Sector 7G 16-Bit Pixel Art",
+          "path": "Sets/21-Nuclear-Nightshift/GC-Sector-7G-16-Bit-Pixel-Art",
+          "preview": "Previews/21-Nuclear-Nightshift/GC",
+          "art": "Previews/21-Nuclear-Nightshift/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            10,
+            15
+          ]
         }
       ]
     },
@@ -1141,6 +2149,54 @@
           "scheme": "Cute - Sanrio Friends Remastered - C2 Pastel Sticker",
           "path": "Sets/22-Sanrio-Friends-Remastered/C2-Pastel-Sticker",
           "preview": "Previews/22-Sanrio-Friends-Remastered/C2"
+        },
+        {
+          "key": "GA",
+          "label": "Plush 3D Satin Bow & Angel Wing",
+          "blurb": "Soft 3D pastel pink-and-blue ribbon bow & fluffy Cinnamoroll wing",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Cute - Sanrio Friends Remastered - GA Plush 3D Satin Bow & Angel Wing",
+          "path": "Sets/22-Sanrio-Friends-Remastered/GA-Plush-3D-Satin-Bow-Angel-Wing",
+          "preview": "Previews/22-Sanrio-Friends-Remastered/GA",
+          "art": "Previews/22-Sanrio-Friends-Remastered/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            0,
+            13
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Kawaii Cel-Shaded Bow & Wing",
+          "blurb": "Crisp dark-outlined pastel pink ribbon bow & feathered angel wing",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Cute - Sanrio Friends Remastered - GB Kawaii Cel-Shaded Bow & Wing",
+          "path": "Sets/22-Sanrio-Friends-Remastered/GB-Kawaii-Cel-Shaded-Bow-Wing",
+          "preview": "Previews/22-Sanrio-Friends-Remastered/GB",
+          "art": "Previews/22-Sanrio-Friends-Remastered/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            3,
+            13
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Remastered Pastel Pixel Art",
+          "blurb": "Nostalgic desktop-pet pixel-art pink/blue bow & angel wing",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Cute - Sanrio Friends Remastered - GC Remastered Pastel Pixel Art",
+          "path": "Sets/22-Sanrio-Friends-Remastered/GC-Remastered-Pastel-Pixel-Art",
+          "preview": "Previews/22-Sanrio-Friends-Remastered/GC",
+          "art": "Previews/22-Sanrio-Friends-Remastered/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            6,
+            13
+          ]
         }
       ]
     },
@@ -1189,6 +2245,54 @@
           "scheme": "Cute - Strawberry Dream Bakery - C2 Berry Sticker",
           "path": "Sets/23-Strawberry-Dream-Bakery/C2-Berry-Sticker",
           "preview": "Previews/23-Strawberry-Dream-Bakery/C2"
+        },
+        {
+          "key": "GA",
+          "label": "3D Glazed Berry & Macarons",
+          "blurb": "Glossy 3D ruby strawberry with pastel macarons & whipped-cream dip",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Cute - Strawberry Dream Bakery - GA 3D Glazed Berry & Macarons",
+          "path": "Sets/23-Strawberry-Dream-Bakery/GA-3D-Glazed-Berry-Macarons",
+          "preview": "Previews/23-Strawberry-Dream-Bakery/GA",
+          "art": "Previews/23-Strawberry-Dream-Bakery/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            2,
+            14
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Patisserie Cel-Shaded Berry",
+          "blurb": "Hand-inked cream-dipped strawberry & mint/rose French macarons",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Cute - Strawberry Dream Bakery - GB Patisserie Cel-Shaded Berry",
+          "path": "Sets/23-Strawberry-Dream-Bakery/GB-Patisserie-Cel-Shaded-Berry",
+          "preview": "Previews/23-Strawberry-Dream-Bakery/GB",
+          "art": "Previews/23-Strawberry-Dream-Bakery/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            6,
+            15
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Cozy Bakery Pixel Art",
+          "blurb": "Pastel pixel-art cream strawberry & pixel macaron stack",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Cute - Strawberry Dream Bakery - GC Cozy Bakery Pixel Art",
+          "path": "Sets/23-Strawberry-Dream-Bakery/GC-Cozy-Bakery-Pixel-Art",
+          "preview": "Previews/23-Strawberry-Dream-Bakery/GC",
+          "art": "Previews/23-Strawberry-Dream-Bakery/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            8,
+            15
+          ]
         }
       ]
     },
@@ -1237,6 +2341,54 @@
           "scheme": "Cute - Spooky Paws - C2 Pumpkin Neon",
           "path": "Sets/24-Spooky-Paws/C2-Pumpkin-Neon",
           "preview": "Previews/24-Spooky-Paws/C2"
+        },
+        {
+          "key": "GA",
+          "label": "3D Plush Toe-Beans & Witch Hat",
+          "blurb": "Velvety 3D black cat paw with squishy pink beans & purple moon witch hat",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Cute - Spooky Paws - GA 3D Plush Toe-Beans & Witch Hat",
+          "path": "Sets/24-Spooky-Paws/GA-3D-Plush-Toe-Beans-Witch-Hat",
+          "preview": "Previews/24-Spooky-Paws/GA",
+          "art": "Previews/24-Spooky-Paws/GA/art.jpg",
+          "source": "gemini",
+          "hot": [
+            2,
+            14
+          ]
+        },
+        {
+          "key": "GB",
+          "label": "Illustrated Claws & Witch Hat",
+          "blurb": "Cel-shaded black cat paw with tiny claws & crescent-buckle witch hat",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Cute - Spooky Paws - GB Illustrated Claws & Witch Hat",
+          "path": "Sets/24-Spooky-Paws/GB-Illustrated-Claws-Witch-Hat",
+          "preview": "Previews/24-Spooky-Paws/GB",
+          "art": "Previews/24-Spooky-Paws/GB/art.jpg",
+          "source": "gemini",
+          "hot": [
+            5,
+            15
+          ]
+        },
+        {
+          "key": "GC",
+          "label": "Midnight Pixel Paw & Hat",
+          "blurb": "Crisp pastel-goth pixel-art toe-bean paw & pixel witch hat",
+          "material": "gemini",
+          "pointer": "Gemini sprite",
+          "scheme": "Cute - Spooky Paws - GC Midnight Pixel Paw & Hat",
+          "path": "Sets/24-Spooky-Paws/GC-Midnight-Pixel-Paw-Hat",
+          "preview": "Previews/24-Spooky-Paws/GC",
+          "art": "Previews/24-Spooky-Paws/GC/art.jpg",
+          "source": "gemini",
+          "hot": [
+            9,
+            15
+          ]
         }
       ]
     }

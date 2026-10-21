@@ -46,7 +46,7 @@ function Get-CursorStyle {
     $item = $Catalog.sets | Where-Object { $_.slug -eq $Set -or [string]$_.num -eq $Set -or $_.name -eq $Set } | Select-Object -First 1
     if (-not $item) { throw "Unknown set '$Set'. Run with -List to see the names." }
     $st = $item.styles | Where-Object { $_.key -eq $Style } | Select-Object -First 1
-    if (-not $st) { throw "Set '$($item.name)' has no style '$Style' (use A, B, C or C2)." }
+    if (-not $st) { throw "Set '$($item.name)' has no style '$Style' (use A, B, C, C2, GA, GB or GC)." }
     [pscustomobject]@{ Set = $item; Style = $st }
 }
 

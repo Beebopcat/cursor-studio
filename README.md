@@ -1,19 +1,21 @@
 # Cursor Studio
 
-[**▶ Live demo: beebopcat.github.io/cursor-studio**](https://beebopcat.github.io/cursor-studio/) - hover any card to try that cursor in your browser.
+[**▶ Live demo: cursors.caseyshingledecker.com**](https://cursors.caseyshingledecker.com/) - hover any card to try that cursor in your browser (dark theme).
 
-[![Cursor Studio page with the Animated preview toggle, a live test pointer and the FFXIV Crystal Dawn set cards.](docs/media/01.webp)](https://beebopcat.github.io/cursor-studio/)
+[![Cursor Studio page with the Animated preview toggle, a live test pointer and the FFXIV Crystal Dawn set cards.](docs/media/01.webp)](https://cursors.caseyshingledecker.com/)
 
-**24 Windows 11 cursor sets x 4 styles** - static `.cur` and animated `.ani`, a browser selector, a dark-mode installer, and the procedural generator that renders all 3,264 cursor files.
+**24 Windows 11 cursor sets x 7 styles** (168 styles) - static `.cur` and animated `.ani`, a dark-theme browser selector, a dark-mode installer, and the generator that renders all 5,712 cursor files. Everything (selector, install guide, previews, installer) is dark themed.
+
+> **Status:** built and checked on Linux. The files are validated structurally and the installer logic is unit-tested against a registry stub, but the cursors and the WinForms installer have **not yet been tested on a live Windows desktop**.
 
 ## Screenshots and video
 
 | | |
 |:--:|:--:|
-| ![Cursor Studio page with the Animated preview toggle, a live test pointer and the FFXIV Crystal Dawn set cards.](docs/media/01.webp) | ![Crystal Dawn set cards in the Animated preview, each showing 17 pointer thumbnails in styles A, B, C and C2.](docs/media/02.webp) |
-| <sub>Cursor Studio page with the Animated preview toggle, a live test pointer and the FFXIV Crystal Dawn set cards.</sub> | <sub>Crystal Dawn set cards in the Animated preview, each showing 17 pointer thumbnails in styles A, B, C and C2.</sub> |
-| ![Filtered to FFXIV, showing the Chocobo Caravan set cards with cursor thumbnails under the set heading.](docs/media/03.webp) | ![Scrolled down to FFXIV set 03 Void and Moon and set 04 A Realm Reborn, with their cursor thumbnails.](docs/media/04.webp) |
-| <sub>Filtered to FFXIV, showing the Chocobo Caravan set cards with cursor thumbnails under the set heading.</sub> | <sub>Scrolled down to FFXIV set 03 Void and Moon and set 04 A Realm Reborn, with their cursor thumbnails.</sub> |
+| ![Cursor Studio page with the Animated preview toggle, a live test pointer and the FFXIV Crystal Dawn set cards.](docs/media/01.webp) | ![Crystal Dawn set cards in the Animated preview (dark theme), each showing three pointer thumbnails in styles A, B, C and C2.](docs/media/02.webp) |
+| <sub>Cursor Studio page with the Animated preview toggle, a live test pointer and the FFXIV Crystal Dawn set cards.</sub> | <sub>Crystal Dawn set cards in the Animated preview (dark theme), each showing three pointer thumbnails in styles A, B, C and C2.</sub> |
+| ![The Gemini Originals row (GA, GB, GC) of Crystal Dawn: the cards show the original Gemini art and the live 32 px pointer on hover.](docs/media/03.webp) | ![Filtered to WoW: the Gemini Originals of Frostmourne Icecrown, then the procedural styles of Ashbringer and Silver Hand.](docs/media/04.webp) |
+| <sub>The Gemini Originals row (GA, GB, GC) of Crystal Dawn: the cards show the original Gemini art and the live 32 px pointer on hover.</sub> | <sub>Filtered to WoW: the Gemini Originals of Frostmourne Icecrown, then the procedural styles of Ashbringer and Silver Hand.</sub> |
 
 ### Video
 
@@ -26,11 +28,12 @@
 *Click the poster to open the short screen recording (docs/media/clip.mp4).*
 
 
-Every set comes in four styles:
+Every set comes in seven styles:
 - **A**: relic or weapon.
 - **B**: mascot.
 - **C**: gauntlet, HUD or pixel.
 - **C2**: a second Style C take.
+- **GA / GB / GC - Gemini Originals**: the owner's Gemini-designed cursor art (Gemini's A, B and C designs) as full 17-pointer styles. The Gemini sprite is the Normal Select pointer; the other roles combine it with the engine's busy ring, I-beam, resize arrows, link hand and so on. 32 px comes from the Gemini sprite, 48/64 px from a clean cutout of the card art (or an upscaled sprite where the cutout did not match). Animated versions pulse an accent glow with shimmer or sparkles. Hotspots come from the sprite tip. The selector cards for these styles show the original Gemini card art.
 
 Each style ships all 17 Windows pointers as **static `.cur`** and **animated `.ani`** files.
 
@@ -52,15 +55,15 @@ Each style ships all 17 Windows pointers as **static `.cur`** and **animated `.a
 ## Use
 - **Browse and test:** open `Selector.html`. Hover a card to use that pointer on the page.
 - **Install on Windows 11:** double-click `App/Launch-CursorStudio.bat`. Pick a set, a style, and Animated or Static, then press Apply Now. No admin rights needed.
-- **Picture guide:** `Docs/Install-Guide.html` (also `.png` and `.pdf`).
+- **Picture guide:** `Docs/Install-Guide.html` (also `.png` and `.pdf`, dark styled).
 - **Manual:** every `Static/` and `Animated/` folder holds the 17 files plus an `Install.inf`.
 - **CLI:** `powershell -ExecutionPolicy Bypass -File App/CursorStudio.ps1 -Set 01-Crystal-Dawn -Style A -Mode Animated -Apply`
 
 ## Revise or rebuild
-See `HANDOFF.md`. `python3 Generator/v2/package.py` makes the full exportable zip.
+See `HANDOFF.md`. `python3 Generator/v2/package.py` makes the full exportable zip. The Gemini styles are built by `Generator/v2/build_gem.py` from the sources in `Generator/v2/gemini_src/`.
 
 ## Disclaimer
 Independent, personal-use fan project. All artwork is original and procedurally drawn by code; no game or show assets are included. Franchise names (Final Fantasy XIV, World of Warcraft, Goosebumps, Guild Wars 2, Pokemon, The Simpsons, Sanrio) are trademarks of their owners, who do not endorse this project.
 
 ## Credits
-Built by Casey Shingledecker with Claude Code. Set roster and A/B/C style concepts adapted from a Gemini design proposal.
+Built by Casey Shingledecker with Claude Code. Set roster and A/B/C style concepts adapted from a Gemini design proposal. Original designs by Gemini (Argon) from the owner's design session (the GA, GB and GC styles).

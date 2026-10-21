@@ -105,6 +105,19 @@ def cmd_shot(a):
         print('board modal:', pg.locator('#bTitle').inner_text(), '| img', pg.locator('#bImg').evaluate('i=>i.naturalWidth+"x"+i.naturalHeight'))
         print('install cmd:', pg.locator('#bCmd').inner_text())
         pg.screenshot(path=f'{OUT}/5-board-modal.png'); print('shot', f'{OUT}/5-board-modal.png')
+        pg.keyboard.press('Escape')
+        # dark theme (forced; the context's colour scheme is the browser default) + Gemini Originals cards
+        print('page background =', pg.evaluate('getComputedStyle(document.body).backgroundColor'), '| text =', pg.evaluate('getComputedStyle(document.body).color'))
+        pg.locator('#chips .chip', has_text='All').first.click()
+        pg.wait_for_timeout(500)
+        gem = pg.locator('article.card .code', has_text='GA').first
+        gem.scroll_into_view_if_needed()
+        gc = pg.locator('article.card', has=pg.locator('.kGA')).first
+        gc.hover()
+        pg.wait_for_function('(()=>{const i=document.querySelector("article.card img.art");return i&&i.complete&&i.naturalWidth>0})()')
+        print('gemini cards:', pg.locator('article.card img.art').count(), '| art 220x150 loaded:', pg.locator('article.card img.art').first.evaluate('i=>i.naturalWidth+"x"+i.naturalHeight'), '| hover cursor css =', gc.evaluate('e=>e.style.cursor'))
+        gc.scroll_into_view_if_needed()
+        pg.screenshot(path=f'{OUT}/6-gemini.png'); print('shot', f'{OUT}/6-gemini.png')
         br.close()
     print('console/page errors:', len(errs))
     for e in errs:
@@ -166,6 +179,35 @@ with mp.Pool(4) as p:
     return rc
 
 
+def cmd_build_gem(a):
+    """Build the three Gemini Originals styles (GA, GB, GC) of one set into OUT/build-gem/ (not the repo) and validate them."""
+    code = f'''
+import sys, os, time, multiprocessing as mp
+mp.set_start_method("fork")
+sys.path.insert(0, {V2!r}); sys.path.insert(0, {os.path.dirname(V2)!r})
+import build_gem, build24
+build_gem.OUT = {os.path.join(OUT, "build-gem")!r}
+build24.FRAMES = {a.frames}
+sel = [i + 1 for i, s in enumerate(build24.SETS24) if s["slug"] == {a.set!r} or str(s["num"]) == {a.set!r}]
+assert sel, "unknown set " + {a.set!r}
+t0 = time.time()
+with mp.Pool(3) as p:
+    for n, r in enumerate(p.imap_unordered(build_gem.build_style, [(i, c) for i in sel for c in "ABC"]), 1):
+        print(n, r, round(time.time() - t0), "s", flush=True)
+'''
+    rc = subprocess.call([sys.executable, '-c', code])
+    if rc == 0:
+        sys.path.insert(0, V2)
+        import validate
+        n = 0
+        for f in glob.glob(os.path.join(OUT, 'build-gem', 'Sets', '*', '*', 'Static', '*.cur')):
+            validate.check_cur(open(f, 'rb').read(), f); n += 1
+        for f in glob.glob(os.path.join(OUT, 'build-gem', 'Sets', '*', '*', 'Animated', '*.ani')):
+            validate.check_ani(open(f, 'rb').read(), f); n += 1
+        print('built into', os.path.join(OUT, 'build-gem'), '| validated', n, 'files')
+    return rc
+
+
 def cmd_ps_check(a):
     pwsh = subprocess.run('command -v pwsh || ls /root/.dotnet/tools/pwsh', shell=True, capture_output=True, text=True).stdout.split()
     if not pwsh:
@@ -187,6 +229,7 @@ def main():
     sp.add_parser('validate').set_defaults(f=cmd_validate)
     sp.add_parser('rebuild-selector').set_defaults(f=cmd_rebuild_selector)
     s = sp.add_parser('build-one'); s.add_argument('set', help='slug or number, e.g. 10-Blish or 10'); s.add_argument('--frames', type=int, default=12); s.set_defaults(f=cmd_build_one)
+    s = sp.add_parser('build-gem'); s.add_argument('set', help='slug or number, e.g. 07-Dalaran-Arcane-Emerald-Dream or 7'); s.add_argument('--frames', type=int, default=12); s.set_defaults(f=cmd_build_gem)
     s = sp.add_parser('ps-check'); s.add_argument('--selftest', action='store_true', help='also run App/CursorStudio.SelfTest.ps1 (~25 s)'); s.set_defaults(f=cmd_ps_check)
     a = ap.parse_args(); sys.exit(a.f(a))
 
