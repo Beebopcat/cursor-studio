@@ -1,6 +1,7 @@
 """Production build: 24 sets x 4 styles -> Static .cur + Animated .ani + Install.inf + previews + catalog.
 
-usage: python3 build24.py [--frames N] [slug-or-number ...]
+usage: python3 build24.py [--frames N] [--previews-only] [slug-or-number ...]
+  --previews-only re-renders only Previews/ (card/board png+gif) and leaves Sets/ and catalog.json untouched.
 """
 import io, json, os, re, struct, sys, time
 from multiprocessing import Pool
@@ -17,11 +18,14 @@ ROOT = os.path.abspath(os.path.join(HERE, '..', '..'))
 SETS_OUT = os.path.join(ROOT, 'Sets')
 PREV_OUT = os.path.join(ROOT, 'Previews')
 FRAMES = 12
+PREVIEWS_ONLY = False
 STATIC_T = 0.3
 FAST = {'Wait', 'AppStarting'}
 HERO = [('Arrow', 'Normal'), ('Wait', 'Busy'), ('Hand', 'Link')]
 BG = (27, 30, 43)
 TILE = (42, 46, 64)
+STRIP1 = (18, 20, 28)    # near-black desktop strip
+STRIP2 = (62, 67, 90)    # slate desktop strip (dark theme: no light strip)
 
 
 def slugify(s):
@@ -71,8 +75,8 @@ def tiles(img, icons, x0, y0, cols, cell):
 
 def strips(img, icons32, y0, W):
     d = ImageDraw.Draw(img)
-    d.rectangle([12, y0, W - 12, y0 + 42], fill=(18, 20, 28))
-    d.rectangle([12, y0 + 46, W - 12, y0 + 88], fill=(236, 238, 246))
+    d.rectangle([12, y0, W - 12, y0 + 42], fill=STRIP1)
+    d.rectangle([12, y0 + 46, W - 12, y0 + 88], fill=STRIP2)
     for i, im in enumerate(icons32):
         img.alpha_composite(im, (18 + i * 35, y0 + 5))
         img.alpha_composite(im, (18 + i * 35, y0 + 51))
@@ -114,14 +118,15 @@ def build_style(job):
     sd = style_dir(item, st)
     base = os.path.join(SETS_OUT, item['slug'], sd)
     prev = os.path.join(PREV_OUT, item['slug'], st.key)
-    for d in (os.path.join(base, 'Static'), os.path.join(base, 'Animated'), prev):
+    for d in ((prev,) if PREVIEWS_ONLY else (os.path.join(base, 'Static'), os.path.join(base, 'Animated'), prev)):
         os.makedirs(d, exist_ok=True)
     stat64, stat32, anim = {}, {}, {}
     label = f'{item["name"]} - {st.key} {st.label}'
     for role, friendly, hot in ROLES:
         fn = FILE_NAMES[role]
         s = render_role(st, role, STATIC_T, (32, 48, 64))
-        open(os.path.join(base, 'Static', fn + '.cur'), 'wb').write(make_cur(s, hot))
+        if not PREVIEWS_ONLY:
+            open(os.path.join(base, 'Static', fn + '.cur'), 'wb').write(make_cur(s, hot))
         stat64[role], stat32[role] = s[64], s[32]
         frames, curs = [], []
         for i in range(FRAMES):
@@ -129,9 +134,11 @@ def build_style(job):
             curs.append(make_cur({32: im[32], 48: im[48]}, hot))
             frames.append(im)
         anim[role] = frames
-        open(os.path.join(base, 'Animated', fn + '.ani'), 'wb').write(make_ani(curs, 4 if role in FAST else 6, f'{label} - {friendly}'))
+        if not PREVIEWS_ONLY:
+            open(os.path.join(base, 'Animated', fn + '.ani'), 'wb').write(make_ani(curs, 4 if role in FAST else 6, f'{label} - {friendly}'))
     for v, ext in (('Static', '.cur'), ('Animated', '.ani')):
-        open(os.path.join(base, v, 'Install.inf'), 'wb').write(make_inf(label, v, ext).encode('ascii', 'replace'))
+        if not PREVIEWS_ONLY:
+            open(os.path.join(base, v, 'Install.inf'), 'wb').write(make_inf(label, v, ext).encode('ascii', 'replace'))
     # previews
     order = [r for r, _, _ in ROLES]
     stat32['Arrow'].save(os.path.join(prev, 'cursor32.png'))
@@ -151,6 +158,8 @@ def catalog():
             styles.append(dict(key=st.key, label=st.label, blurb=st.blurb, material=st.material, pointer=st.ptr,
                                scheme=f'{item["name"]} - {st.key} {st.label}', path=f'Sets/{item["slug"]}/{sd}',
                                preview=f'Previews/{item["slug"]}/{st.key}'))
+        import gemini
+        styles += gemini.catalog_styles(item, slugify)
         sets.append(dict(num=item['num'], group=item['group'], slug=item['slug'], name=item['name'], styles=styles))
     roles = [dict(registry=k, label=n, file=FILE_NAMES[k]) for k, n, _ in ROLES]
     json.dump(dict(version=2, roles=roles, sets=sets), open(os.path.join(ROOT, 'catalog.json'), 'w'), indent=2)
@@ -160,11 +169,14 @@ if __name__ == '__main__':
     args = sys.argv[1:]
     if args[:1] == ['--frames']:
         FRAMES = int(args[1]); args = args[2:]
+    if args[:1] == ['--previews-only']:
+        PREVIEWS_ONLY = True; args = args[1:]
     sel = [i for i, s in enumerate(SETS24) if not args or s['slug'] in args or str(s['num']) in args]
-    jobs = [(i, k) for i in sel for k in range(4)]
+    jobs = [(i, k) for i in sel for k in range(4)]   # the 3 Gemini styles per set come from build_gem.py
     t0 = time.time()
     with Pool(4) as p:
         for n, r in enumerate(p.imap_unordered(build_style, jobs), 1):
             print(f'[{n}/{len(jobs)}] {r["set"]} {r["key"]}  {round(time.time() - t0)}s', flush=True)
-    catalog()
+    if not PREVIEWS_ONLY:
+        catalog()
     print('done', len(jobs), 'styles in', round(time.time() - t0), 's')

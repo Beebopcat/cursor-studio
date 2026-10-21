@@ -1,0 +1,554 @@
+[
+ {
+  "num": 1,
+  "name": "FFXIV — Crystal Dawn",
+  "accent": [
+   72,
+   202,
+   255
+  ],
+  "styles": {
+   "A": {
+    "title": "Aetherial Glaive Relic",
+    "desc": "3D sculpted gold-filigree & cyan crystal spearhead with shimmering blade sweep"
+   },
+   "B": {
+    "title": "Floating Mothercrystal",
+    "desc": "Faceted Hydaelyn crystal cluster with orbiting aether shards & pulsing core"
+   },
+   "C": {
+    "title": "Eorzean Silver Gauntlet",
+    "desc": "Armored Paladin gauntlet hand pointer with glowing cyan fingertip aura"
+   }
+  }
+ },
+ {
+  "num": 2,
+  "name": "FFXIV — Chocobo Caravan",
+  "accent": [
+   255,
+   212,
+   58
+  ],
+  "styles": {
+   "A": {
+    "title": "Golden Plume Blade",
+    "desc": "3D feathered bronze-and-gold caravan pointer with glowing amber gem"
+   },
+   "B": {
+    "title": "Adventurer Chocobo Mascot",
+    "desc": "Expressive hatted golden Chocobo pointing with its wing & bobbing plume"
+   },
+   "C": {
+    "title": "Caravan Tack Gauntlet",
+    "desc": "Studded Eorzean leather bracer gauntlet with golden Chocobo emblem"
+   }
+  }
+ },
+ {
+  "num": 3,
+  "name": "FFXIV — Void & Moon",
+  "accent": [
+   182,
+   92,
+   255
+  ],
+  "styles": {
+   "A": {
+    "title": "Abyssal Voidblade",
+    "desc": "Obsidian-and-gold Reaper dagger infused with pulsing purple voidlight"
+   },
+   "B": {
+    "title": "Lunar Eclipse Avatar",
+    "desc": "Grinning purple crescent moon with glowing crimson Void Avatar eye"
+   },
+   "C": {
+    "title": "Arcane Void Reticle",
+    "desc": "Rotating Eorzean runic spell circle & glowing violet target spear"
+   }
+  }
+ },
+ {
+  "num": 4,
+  "name": "FFXIV — A Realm Reborn",
+  "accent": [
+   255,
+   88,
+   58
+  ],
+  "styles": {
+   "A": {
+    "title": "Bahamut Crimson Relic",
+    "desc": "Ornate gold-and-ruby relic sword radiating Calamity flare embers"
+   },
+   "B": {
+    "title": "Blazing Dalamud Meteor",
+    "desc": "Iconic descending crimson Dalamud meteor with animated flame trail"
+   },
+   "C": {
+    "title": "Meteor Sigil Gauntlet",
+    "desc": "Black-iron Grand Company gauntlet projecting a glowing orange target rune"
+   }
+  }
+ },
+ {
+  "num": 5,
+  "name": "WoW — Frostmourne Icecrown",
+  "accent": [
+   88,
+   218,
+   255
+  ],
+  "styles": {
+   "A": {
+    "title": "Frostmourne Runeblade",
+    "desc": "3D sculpted Lich King runeblade with horned skull guard & icy mist"
+   },
+   "B": {
+    "title": "Helm of Domination",
+    "desc": "Crown of the Lich King with blazing blue eyes & swirling blizzard vortex"
+   },
+   "C": {
+    "title": "Icecrown War-Gauntlet",
+    "desc": "Spiked saronite Death Knight gauntlet etched with glowing frost runes"
+   }
+  }
+ },
+ {
+  "num": 6,
+  "name": "WoW — Ashbringer & Silver Hand",
+  "accent": [
+   255,
+   212,
+   68
+  ],
+  "styles": {
+   "A": {
+    "title": "Radiant Ashbringer",
+    "desc": "Golden Highlord greatsword with levitating Holy Light orb & spark trail"
+   },
+   "B": {
+    "title": "Swirling Hearthstone",
+    "desc": "Golden-framed Hearthstone shield with rotating azure portal spiral"
+   },
+   "C": {
+    "title": "Silver Hand Gauntlet",
+    "desc": "Lion-crested golden Paladin plate gauntlet with glowing holy runes"
+   }
+  }
+ },
+ {
+  "num": 7,
+  "name": "WoW — Dalaran Arcane & Emerald Dream",
+  "accent": [
+   185,
+   98,
+   255
+  ],
+  "styles": {
+   "A": {
+    "title": "Kirin Tor Crystal Blade",
+    "desc": "Floating violet arcane crystal sword with orbiting mana shards"
+   },
+   "B": {
+    "title": "Eye of Dalaran & Dream",
+    "desc": "Golden Kirin Tor Eye wrapped in bioluminescent Emerald Dream vines"
+   },
+   "C": {
+    "title": "Archmage Runic Gauntlet",
+    "desc": "Violet-and-gold Dalaran gauntlet traced with living emerald filigree"
+   }
+  }
+ },
+ {
+  "num": 8,
+  "name": "Goosebumps — Monster Blood (Non-Slappy)",
+  "accent": [
+   98,
+   248,
+   68
+  ],
+  "styles": {
+   "A": {
+    "title": "3D Glossy Slime & Canister",
+    "desc": "Translucent oozing green Monster Blood arrow & metallic purple canister"
+   },
+   "B": {
+    "title": "Living Slime Monster Mascot",
+    "desc": "Grinning bubbling green slime creature & hazard canister spinner"
+   },
+   "C": {
+    "title": "Retro 16-Bit Neon Pixel Art",
+    "desc": "Crisp 90s arcade pixel-art dripping neon green pointer & purple tub"
+   }
+  }
+ },
+ {
+  "num": 9,
+  "name": "Goosebumps — Revenge of the Lawn Gnomes",
+  "accent": [
+   245,
+   72,
+   82
+  ],
+  "styles": {
+   "A": {
+    "title": "3D Ceramic Gnome & Flamingo",
+    "desc": "Sculpted red-cap terracotta gnome pointer & glossy pink lawn flamingo"
+   },
+   "B": {
+    "title": "Sinister Grinning Gnome Mascot",
+    "desc": "Waving yellow-eyed mischief gnome & startled pink flamingo spinner"
+   },
+   "C": {
+    "title": "Retro 16-Bit Pixel Gnome",
+    "desc": "Vibrant neon-outlined pixel-art lawn gnome & pink flamingo"
+   }
+  }
+ },
+ {
+  "num": 10,
+  "name": "GW2 — Blish (Synergetics Golem)",
+  "accent": [
+   78,
+   232,
+   255
+  ],
+  "styles": {
+   "A": {
+    "title": "Sculpted Golem Chassis Spear",
+    "desc": "Blish's ivory-and-gold Asuran golem torso & glowing cyan Synergetics spearhead"
+   },
+   "B": {
+    "title": "Hovering Blish Optic & Holo-Cursor",
+    "desc": "Blish's spherical golem head with glowing cyan eyes & floating hardlight arrow"
+   },
+   "C": {
+    "title": "Painterly Synergetics Hardlight",
+    "desc": "ArenaNet-style cyan/gold brushstroke chevron with glowing Asuran glyphs"
+   }
+  }
+ },
+ {
+  "num": 11,
+  "name": "GW2 — Tybalt Leftpaw (Order of Whispers)",
+  "accent": [
+   238,
+   68,
+   62
+  ],
+  "styles": {
+   "A": {
+    "title": "Lightbringer Portrait & Dagger",
+    "desc": "Tybalt's eyepatch Charr crest crowned with the Order of Whispers winged dagger"
+   },
+   "B": {
+    "title": "Bitten Cider Apple & Charr Paw",
+    "desc": "Glossy bitten red Cider Apple, brass engineer gears & Tybalt's Charr paw"
+   },
+   "C": {
+    "title": "Painterly Clockwork Brushstroke",
+    "desc": "Fiery amber brushstroke arrow driven by interlocking Iron Legion gears"
+   }
+  }
+ },
+ {
+  "num": 12,
+  "name": "GW2 — Taimi & Scruffy 2.0",
+  "accent": [
+   255,
+   88,
+   195
+  ],
+  "styles": {
+   "A": {
+    "title": "Scruffy 2.0 Mech & Holo-Bow Spear",
+    "desc": "Full Scruffy 2.0 teal-and-pink golem piloted by Taimi beneath her neon bow tip"
+   },
+   "B": {
+    "title": "Chibi Taimi & Scruffy Gauntlet",
+    "desc": "Expressive Taimi mascot with twin Scruffy 2.0 mech fists"
+   },
+   "C": {
+    "title": "Neon Hardlight Bow & Matrix Chevron",
+    "desc": "Glowing magenta-and-cyan Asuran hologram bow projecting a laser pointer"
+   }
+  }
+ },
+ {
+  "num": 13,
+  "name": "GW2 — Canach (Sylvari Mercenary)",
+  "accent": [
+   82,
+   238,
+   112
+  ],
+  "styles": {
+   "A": {
+    "title": "Bioluminescent Vine Spear",
+    "desc": "Twisted thorny emerald Sylvari spear with glowing green sap & spores"
+   },
+   "B": {
+    "title": "Glowing Jungle Blossom Bomb",
+    "desc": "Canach's bioluminescent golden-emerald flower detonator wrapped in brambles"
+   },
+   "C": {
+    "title": "Mercenary Shield-Dagger",
+    "desc": "Ironwood-and-brass Consortium shield fused with a thorny emerald blade"
+   }
+  }
+ },
+ {
+  "num": 14,
+  "name": "GW2 — Palawa Joko (Scourge of Vabbi)",
+  "accent": [
+   118,
+   255,
+   142
+  ],
+  "styles": {
+   "A": {
+    "title": "Awakened Crescent Bone Staff",
+    "desc": "Mummified golden crescent scepter wreathed in necrotic green soulfire"
+   },
+   "B": {
+    "title": "Undying Lich Pharaoh Skull",
+    "desc": "Palawa Joko's horned golden nemes crown & skull blazing with emerald fire"
+   },
+   "C": {
+    "title": "Mummified Royal Scarab",
+    "desc": "Bandaged golden Vabbian scarab beetle with glowing necrotic green trail"
+   }
+  }
+ },
+ {
+  "num": 15,
+  "name": "GW2 — Tyrian Legends Ensemble",
+  "accent": [
+   255,
+   108,
+   68
+  ],
+  "styles": {
+   "A": {
+    "title": "Aurene Prismatic Spear / Dragon Head",
+    "desc": "3D sculpted prismatic crystal spear & fiery crimson dragon silhouette"
+   },
+   "B": {
+    "title": "Prismatic Commander Tag Crest",
+    "desc": "Glowing 5-color Commander Tag emblem & winged dragon crest"
+   },
+   "C": {
+    "title": "Painterly Crimson Dragon Wing",
+    "desc": "Authentic ArenaNet fiery crimson brushstroke dragon-wing pointer"
+   }
+  }
+ },
+ {
+  "num": 16,
+  "name": "GW2 — Blish & Taimi Magitech Direction",
+  "accent": [
+   72,
+   228,
+   255
+  ],
+  "styles": {
+   "A": {
+    "title": "Asuran Golem Hardlight Gauntlet",
+    "desc": "Sculpted gold-and-ivory golem gauntlet fused with neon magenta circuitry"
+   },
+   "B": {
+    "title": "Eternal Alchemy Polyhedron Core",
+    "desc": "Interlocking cyan-and-pink holo-icosahedron with Blish & Scruffy optical lenses"
+   },
+   "C": {
+    "title": "Holographic Target Emitter",
+    "desc": "Sleek cyan-and-magenta geometric laser pointer & target reticle"
+   }
+  }
+ },
+ {
+  "num": 17,
+  "name": "GW2 — Canach, Joko & Tybalt Dramatic",
+  "accent": [
+   235,
+   192,
+   68
+  ],
+  "styles": {
+   "A": {
+    "title": "Apple, Crescent & Thorn Dagger",
+    "desc": "Ornate dagger uniting Tybalt's bitten apple pommel, Joko's gold crescent & Canach's vine blade"
+   },
+   "B": {
+    "title": "Dramatic Tri-Crest Medallion",
+    "desc": "Bitten red cider apple, spiky green Sylvari bomb & golden Awakened scarab in green fire"
+   },
+   "C": {
+    "title": "Dark Painterly Brushstroke Blade",
+    "desc": "Sweeping obsidian, gold & crimson ArenaNet brushstroke war-pointer"
+   }
+  }
+ },
+ {
+  "num": 18,
+  "name": "Pokémon — Kanto Companions",
+  "accent": [
+   255,
+   218,
+   42
+  ],
+  "styles": {
+   "A": {
+    "title": "3D Glossy Tail & Poké Ball",
+    "desc": "Smooth 3D sculpted yellow Pikachu tail & metallic red-and-white Poké Ball"
+   },
+   "B": {
+    "title": "Anime Spark Tail & Poké Ball",
+    "desc": "Dynamic cel-shaded lightning bolt tail crackling with sparks & Poké Ball"
+   },
+   "C": {
+    "title": "16-Bit GBA Pixel Art",
+    "desc": "Crisp neon-outlined pixel-art Pikachu bolt & classic pixel Poké Ball"
+   }
+  }
+ },
+ {
+  "num": 19,
+  "name": "Pokémon — Ghost Parade",
+  "accent": [
+   168,
+   98,
+   255
+  ],
+  "styles": {
+   "A": {
+    "title": "3D Shadow Spirit & Soul Candle",
+    "desc": "Glossy 3D amethyst ghost silhouette & glowing blue-violet Litwick candle"
+   },
+   "B": {
+    "title": "Grinning Gengar & Cute Litwick",
+    "desc": "Expressive anime Gengar with mischievous grin & happy Litwick mascot"
+   },
+   "C": {
+    "title": "Lavender Tower 16-Bit Pixel Art",
+    "desc": "Retro neon-purple pixel-art Gengar & flickering pixel Litwick flame"
+   }
+  }
+ },
+ {
+  "num": 20,
+  "name": "Simpsons — Springfield Donuts",
+  "accent": [
+   255,
+   112,
+   185
+  ],
+  "styles": {
+   "A": {
+    "title": "Plush 3D Hand & Frosted Donut",
+    "desc": "Soft 3D sculpted yellow 4-finger cartoon hand & glossy pink sprinkled donut"
+   },
+   "B": {
+    "title": "Cel-Shaded Cartoon & Kawaii Donut",
+    "desc": "Bold inked Simpsons yellow hand & smiling pink frosted donut mascot"
+   },
+   "C": {
+    "title": "Arcade 16-Bit Pixel Hand & Donut",
+    "desc": "Retro Simpsons arcade style pixel-art yellow hand & sprinkled donut"
+   }
+  }
+ },
+ {
+  "num": 21,
+  "name": "Simpsons — Nuclear Nightshift",
+  "accent": [
+   98,
+   255,
+   72
+  ],
+  "styles": {
+   "A": {
+    "title": "3D Glowing Carbon Rod & Blinky",
+    "desc": "Neon-green glowing Inanimate Carbon Rod & 3D sculpted 3-eyed Blinky"
+   },
+   "B": {
+    "title": "Oozing Cartoon Rod & Blinky",
+    "desc": "Dripping radioactive cel-shaded rod & wide-eyed cartoon Blinky the Fish"
+   },
+   "C": {
+    "title": "Sector 7G 16-Bit Pixel Art",
+    "desc": "Crisp pixel-art plutonium rod & pixel Blinky spinner"
+   }
+  }
+ },
+ {
+  "num": 22,
+  "name": "Cute — Sanrio Friends Remastered",
+  "accent": [
+   255,
+   148,
+   198
+  ],
+  "styles": {
+   "A": {
+    "title": "Plush 3D Satin Bow & Angel Wing",
+    "desc": "Soft 3D pastel pink-and-blue ribbon bow & fluffy Cinnamoroll wing"
+   },
+   "B": {
+    "title": "Kawaii Cel-Shaded Bow & Wing",
+    "desc": "Crisp dark-outlined pastel pink ribbon bow & feathered angel wing"
+   },
+   "C": {
+    "title": "Remastered Pastel Pixel Art",
+    "desc": "Nostalgic desktop-pet pixel-art pink/blue bow & angel wing"
+   }
+  }
+ },
+ {
+  "num": 23,
+  "name": "Cute — Strawberry Dream Bakery",
+  "accent": [
+   255,
+   82,
+   112
+  ],
+  "styles": {
+   "A": {
+    "title": "3D Glazed Berry & Macarons",
+    "desc": "Glossy 3D ruby strawberry with pastel macarons & whipped-cream dip"
+   },
+   "B": {
+    "title": "Patisserie Cel-Shaded Berry",
+    "desc": "Hand-inked cream-dipped strawberry & mint/rose French macarons"
+   },
+   "C": {
+    "title": "Cozy Bakery Pixel Art",
+    "desc": "Pastel pixel-art cream strawberry & pixel macaron stack"
+   }
+  }
+ },
+ {
+  "num": 24,
+  "name": "Cute — Spooky Paws",
+  "accent": [
+   192,
+   128,
+   255
+  ],
+  "styles": {
+   "A": {
+    "title": "3D Plush Toe-Beans & Witch Hat",
+    "desc": "Velvety 3D black cat paw with squishy pink beans & purple moon witch hat"
+   },
+   "B": {
+    "title": "Illustrated Claws & Witch Hat",
+    "desc": "Cel-shaded black cat paw with tiny claws & crescent-buckle witch hat"
+   },
+   "C": {
+    "title": "Midnight Pixel Paw & Hat",
+    "desc": "Crisp pastel-goth pixel-art toe-bean paw & pixel witch hat"
+   }
+  }
+ }
+]
