@@ -17,6 +17,10 @@
 
 ### Video
 
+[![Cursor Studio selector walkthrough: browsing the 24 sets and picking a style for each.](docs/media/cursor-studio-demo-poster.webp)](docs/media/cursor-studio-demo.mp4)
+
+*Full walkthrough (2 min)*
+
 [![Cursor Studio page with the Animated preview toggle, a live test pointer and the FFXIV Crystal Dawn set cards.](docs/media/poster.webp)](docs/media/clip.mp4)
 
 *Click the poster to open the short screen recording (docs/media/clip.mp4).*
