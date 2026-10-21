@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cursor Studio</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
@@ -68,12 +73,14 @@ h2{font:700 21px/1.2 var(--f-head);margin:0}
 code{font:12px var(--f-mono);background:var(--card);border:1px solid var(--line);border-radius:6px;padding:2px 6px;word-break:break-all}
 @media (prefers-reduced-motion:reduce){.card{transition:none}}
 </style>
-
+</head>
+<body>
 <div class="wrap">
 <header>
   <div class="eyebrow">Windows 11 cursor sets</div>
   <h1>Cursor Studio</h1>
   <p>24 sets, each built in four styles: A relic or weapon, B mascot, C gauntlet, HUD or pixel, and C2 a second Style C take. Every style ships 17 pointers as static .cur and animated .ani files. Hover a card to use its pointer on this page.</p>
+  <p><a href="Docs/Install-Guide.html">Install guide</a> · <a href="https://github.com/Beebopcat/cursor-studio/archive/refs/heads/main.zip">Download sets (zip)</a></p>
 </header>
 <div class="deck"><div class="row">
   <span class="lbl">Preview</span><div class="seg" role="group" aria-label="Preview mode"><button id="mAnim" aria-pressed="true">Animated</button><button id="mStill" aria-pressed="false">Static</button></div>
@@ -85,7 +92,7 @@ code{font:12px var(--f-mono);background:var(--card);border:1px solid var(--line)
 <main id="list"></main>
 </div>
 <div class="modal" id="mBoard" hidden><div class="mbox"><div class="mrow" style="margin:0 0 8px"><b id="bTitle"></b><button class="btn" id="bClose">Close</button></div><img id="bImg" alt="All 17 pointers"><p style="color:var(--dim);font-size:13px;margin:8px 0 0">All 17 Windows pointers. The bottom strips are the real 32 px size on dark and light desktops.</p>
-  <p style="font-size:13px;margin:8px 0 0">Install with the Windows app, or run:<br><code id="bCmd"></code></p></div></div>
+  <p style="font-size:13px;margin:8px 0 0">Install with the Windows app, or <a href="https://github.com/Beebopcat/cursor-studio/archive/refs/heads/main.zip">download the repo zip</a>, unzip it, and run this from the unzipped folder:<br><code id="bCmd"></code></p></div></div>
 <div class="modal" id="mList" hidden><div class="mbox"><div class="mrow" style="margin:0 0 8px"><b>Your marked styles</b><button class="btn" id="lClose">Close</button></div>
   <textarea id="lTxt" readonly aria-label="Marked styles"></textarea><div class="mrow"><span id="lNote" style="color:var(--dim);font-size:13px">Copy this and paste it in the chat to ask for changes.</span><button class="btn" id="lCopy">Copy</button></div></div></div>
 
@@ -101,7 +108,11 @@ var GN={'FFXIV':'FFXIV','WoW':'WoW','Goosebumps':'Goosebumps','GW2':'Guild Wars 
 var groups=['All'];CAT.sets.forEach(function(s){if(groups.indexOf(s.group)<0)groups.push(s.group)});
 groups.forEach(function(g){var b=document.createElement('button');b.className='chip';b.textContent=g==='All'?'All 24 sets':(GN[g]||g);b.setAttribute('aria-pressed',g==='All');b.onclick=function(){filt=g;[].forEach.call($('#chips').children,function(c){c.setAttribute('aria-pressed',c===b)});render()};$('#chips').appendChild(b)});
 function cmd(s,st){return 'powershell -ExecutionPolicy Bypass -File App\\CursorStudio.ps1 -Set '+s.slug+' -Style '+st.key+' -Mode '+(anim?'Animated':'Static')+' -Apply'}
-function dock(s,st){var u=st.preview+'/cursor32.png';$('#dk1').src=u;$('#dk2').src=u;$('#dockName').textContent=s.name+' — '+st.key+' '+st.label;document.body.style.cursor='url("'+u+'") 2 2, auto'}
+function dock(s,st){var u=st.preview+'/cursor32.png';$('#dk1').src=u;$('#dk2').src=u;$('#dockName').textContent=s.name+' — '+st.key+' '+st.label;return 'url("'+u+'") 2 2, auto'}
+function paint(g,s){
+  [].forEach.call(g.children,function(c,i){var on=marks[s.slug]===s.styles[i].key,m=c.querySelector('.m');c.classList.toggle('on',on);m.classList.toggle('sel',on);m.textContent=on?'Marked':'Mark'});
+  $('#cnt').textContent=Object.keys(marks).length;
+}
 function render(){
   var L=$('#list');L.innerHTML='';
   CAT.sets.forEach(function(s){
@@ -112,14 +123,14 @@ function render(){
     s.styles.forEach(function(st){
       var on=marks[s.slug]===st.key;
       var c=document.createElement('article');c.className='card'+(on?' on':'');
-      c.style.cursor='url("'+st.preview+'/cursor32.png") 2 2, pointer';
       c.innerHTML='<div><span class="code k'+st.key+'">'+st.key+'</span><h3>'+esc(st.label)+'</h3></div>'+
         '<img class="prev" loading="lazy" width="264" height="96" alt="'+esc(st.label)+': normal, busy and link pointers" src="'+st.preview+(anim?'/card.gif':'/card.png')+'">'+
         '<p>'+esc(st.blurb)+'</p><div class="tags"><span class="tag">'+esc(MAT[st.material]||st.material)+'</span><span class="tag">'+esc(st.pointer)+' pointer</span></div>'+
         '<div class="acts"><button class="btn v">All 17 pointers</button><button class="btn m'+(on?' sel':'')+'">'+(on?'Marked':'Mark')+'</button></div>';
-      c.addEventListener('mouseenter',function(){dock(s,st)});
+      c.addEventListener('mouseenter',function(){c.style.cursor=dock(s,st)});
+      c.addEventListener('mouseleave',function(){c.style.cursor=''});
       c.querySelector('.v').onclick=function(){$('#bTitle').textContent=s.name+' — '+st.key+' '+st.label;$('#bImg').src=st.preview+(anim?'/board.gif':'/board.png');$('#bCmd').textContent=cmd(s,st);$('#mBoard').hidden=false};
-      c.querySelector('.m').onclick=function(){if(marks[s.slug]===st.key)delete marks[s.slug];else marks[s.slug]=st.key;save();render()};
+      c.querySelector('.m').onclick=function(){if(marks[s.slug]===st.key)delete marks[s.slug];else marks[s.slug]=st.key;save();paint(g,s)};
       g.appendChild(c);
     });
     sec.appendChild(g);L.appendChild(sec);
@@ -137,5 +148,7 @@ $('#bClose').onclick=function(){$('#mBoard').hidden=true};
 document.addEventListener('keydown',function(e){if(e.key==='Escape'){$('#mBoard').hidden=true;$('#mList').hidden=true}});
 $('#lCopy').onclick=function(){var t=$('#lTxt').value;var ok=function(){$('#lNote').textContent='Copied.'};var fb=function(){$('#lTxt').select();$('#lNote').textContent='Select the text and copy it.'};try{navigator.clipboard.writeText(t).then(ok,fb)}catch(e){fb()}};
 render();
-var f=CAT.sets[0];dock(f,f.styles[0]);document.body.style.cursor='';
+var f=CAT.sets[0];dock(f,f.styles[0]);
 </script>
+</body>
+</html>
