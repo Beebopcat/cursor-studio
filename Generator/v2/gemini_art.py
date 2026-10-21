@@ -14,6 +14,7 @@ Per variant this produces a `GemArt` with
 import json, os
 import numpy as np
 from PIL import Image, ImageFilter
+import gemini_aim as AIM
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, 'gemini_src')
@@ -218,7 +219,13 @@ class GemArt:
         self.num, self.code = num, code
         self.name = '%02d%s' % (num, code)
         self.sprite = clean_sprite(os.path.join(SRC, self.name + '_cur32.png'))
-        self.hotspot = hotspot_of(self.sprite)
+        self.sprite_orig = self.sprite
+        self.aim = AIM.load().get(self.name)
+        self.aim_prm = None
+        if self.aim and self.aim['rotate_deg']:
+            self.aim_prm = AIM.params(self.sprite_orig, self.aim)
+            self.sprite = AIM.apply(self.sprite_orig, self.aim, self.aim_prm)
+        self.hotspot = tuple(self.aim['tip']) if self.aim else hotspot_of(self.sprite)
         self.cut, core, seeds = matte(os.path.join(SRC, self.name + '_img.jpg'))
         h, w = core.shape
         self.tf = _fit(core, self.sprite)
@@ -236,7 +243,10 @@ class GemArt:
         if size == 32:
             return self.sprite
         if size not in self._cache:
-            self._cache[size] = _render(self.cut, self.tf, size) if self.mode == 'cutout' else _upscale(self.sprite, size)
+            im = _render(self.cut, self.tf, size) if self.mode == 'cutout' else _upscale(self.sprite_orig, size)
+            if self.aim_prm:
+                im = AIM.apply(im, self.aim, self.aim_prm)
+            self._cache[size] = im
         return self._cache[size]
 
     @property

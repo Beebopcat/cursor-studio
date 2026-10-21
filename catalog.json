@@ -146,8 +146,8 @@
           "art": "Previews/01-Crystal-Dawn/GA/art.jpg",
           "source": "gemini",
           "hot": [
-            4,
-            14
+            2,
+            2
           ]
         },
         {
@@ -242,8 +242,8 @@
           "art": "Previews/02-Chocobo-Caravan/GA/art.jpg",
           "source": "gemini",
           "hot": [
-            3,
-            14
+            2,
+            2
           ]
         },
         {
@@ -338,8 +338,8 @@
           "art": "Previews/03-Void-and-Moon/GA/art.jpg",
           "source": "gemini",
           "hot": [
-            3,
-            14
+            2,
+            2
           ]
         },
         {
@@ -434,8 +434,8 @@
           "art": "Previews/04-A-Realm-Reborn/GA/art.jpg",
           "source": "gemini",
           "hot": [
-            3,
-            14
+            2,
+            2
           ]
         },
         {
@@ -450,8 +450,8 @@
           "art": "Previews/04-A-Realm-Reborn/GB/art.jpg",
           "source": "gemini",
           "hot": [
-            2,
-            8
+            3,
+            3
           ]
         },
         {
@@ -1010,7 +1010,7 @@
           "art": "Previews/10-Blish/GA/art.jpg",
           "source": "gemini",
           "hot": [
-            15,
+            3,
             3
           ]
         },
@@ -1026,8 +1026,8 @@
           "art": "Previews/10-Blish/GB/art.jpg",
           "source": "gemini",
           "hot": [
-            8,
-            9
+            2,
+            2
           ]
         },
         {
@@ -1042,8 +1042,8 @@
           "art": "Previews/10-Blish/GC/art.jpg",
           "source": "gemini",
           "hot": [
-            6,
-            11
+            3,
+            3
           ]
         }
       ]
@@ -1106,8 +1106,8 @@
           "art": "Previews/11-Tybalt-Leftpaw/GA/art.jpg",
           "source": "gemini",
           "hot": [
-            14,
-            2
+            3,
+            3
           ]
         },
         {
@@ -1138,8 +1138,8 @@
           "art": "Previews/11-Tybalt-Leftpaw/GC/art.jpg",
           "source": "gemini",
           "hot": [
-            5,
-            15
+            3,
+            3
           ]
         }
       ]
@@ -1234,8 +1234,8 @@
           "art": "Previews/12-Taimi-and-Scruffy/GC/art.jpg",
           "source": "gemini",
           "hot": [
-            10,
-            11
+            2,
+            2
           ]
         }
       ]
@@ -1298,8 +1298,8 @@
           "art": "Previews/13-Canach/GA/art.jpg",
           "source": "gemini",
           "hot": [
-            2,
-            14
+            3,
+            3
           ]
         },
         {
@@ -1330,8 +1330,8 @@
           "art": "Previews/13-Canach/GC/art.jpg",
           "source": "gemini",
           "hot": [
-            6,
-            14
+            4,
+            4
           ]
         }
       ]
@@ -1394,8 +1394,8 @@
           "art": "Previews/14-Palawa-Joko/GA/art.jpg",
           "source": "gemini",
           "hot": [
-            6,
-            9
+            2,
+            2
           ]
         },
         {
@@ -1426,8 +1426,8 @@
           "art": "Previews/14-Palawa-Joko/GC/art.jpg",
           "source": "gemini",
           "hot": [
-            5,
-            12
+            2,
+            3
           ]
         }
       ]
@@ -1490,8 +1490,8 @@
           "art": "Previews/15-Tyrian-Legends/GA/art.jpg",
           "source": "gemini",
           "hot": [
-            3,
-            21
+            2,
+            2
           ]
         },
         {
@@ -1587,7 +1587,7 @@
           "source": "gemini",
           "hot": [
             2,
-            11
+            2
           ]
         },
         {
@@ -1618,8 +1618,8 @@
           "art": "Previews/16-Blish-and-Taimi-Magitech/GC/art.jpg",
           "source": "gemini",
           "hot": [
-            4,
-            13
+            5,
+            5
           ]
         }
       ]
@@ -1682,8 +1682,8 @@
           "art": "Previews/17-Canach-Joko-Tybalt/GA/art.jpg",
           "source": "gemini",
           "hot": [
-            0,
-            14
+            3,
+            2
           ]
         },
         {
@@ -1714,8 +1714,8 @@
           "art": "Previews/17-Canach-Joko-Tybalt/GC/art.jpg",
           "source": "gemini",
           "hot": [
-            8,
-            13
+            4,
+            2
           ]
         }
       ]
@@ -1970,8 +1970,8 @@
           "art": "Previews/20-Springfield-Donuts/GA/art.jpg",
           "source": "gemini",
           "hot": [
-            2,
-            13
+            1,
+            11
           ]
         },
         {
@@ -1986,8 +1986,8 @@
           "art": "Previews/20-Springfield-Donuts/GB/art.jpg",
           "source": "gemini",
           "hot": [
-            5,
-            13
+            2,
+            10
           ]
         },
         {
@@ -2002,8 +2002,8 @@
           "art": "Previews/20-Springfield-Donuts/GC/art.jpg",
           "source": "gemini",
           "hot": [
-            7,
-            13
+            3,
+            11
           ]
         }
       ]
@@ -2066,8 +2066,8 @@
           "art": "Previews/21-Nuclear-Nightshift/GA/art.jpg",
           "source": "gemini",
           "hot": [
-            3,
-            14
+            1,
+            11
           ]
         },
         {
@@ -2082,8 +2082,8 @@
           "art": "Previews/21-Nuclear-Nightshift/GB/art.jpg",
           "source": "gemini",
           "hot": [
-            7,
-            15
+            4,
+            11
           ]
         },
         {
@@ -2098,8 +2098,8 @@
           "art": "Previews/21-Nuclear-Nightshift/GC/art.jpg",
           "source": "gemini",
           "hot": [
-            10,
-            15
+            5,
+            11
           ]
         }
       ]

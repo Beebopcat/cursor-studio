@@ -146,6 +146,11 @@ def all_styles():
     return out
 
 
+def _hot(num, c):
+    a = GA.AIM.load().get('%02d%s' % (num, c))
+    return a['tip'] if a else GA.hotspot_of(GA.clean_sprite(os.path.join(GA.SRC, '%02d%s_cur32.png' % (num, c))))
+
+
 def catalog_styles(set_item, slugify):
     """catalog.json style entries for one set (no image work: names from gemini_meta.json)."""
     m = _meta(set_item['num'])
@@ -157,5 +162,5 @@ def catalog_styles(set_item, slugify):
                         scheme=f'{set_item["name"]} - {key} {info["title"]}',
                         path=f'Sets/{set_item["slug"]}/{sd}', preview=f'Previews/{set_item["slug"]}/{key}',
                         art=f'Previews/{set_item["slug"]}/{key}/art.jpg', source='gemini',
-                        hot=list(GA.hotspot_of(GA.clean_sprite(os.path.join(GA.SRC, '%02d%s_cur32.png' % (set_item['num'], c)))))))
+                        hot=list(_hot(set_item['num'], c))))
     return res

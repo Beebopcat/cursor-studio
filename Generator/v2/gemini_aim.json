@@ -1,0 +1,734 @@
+{
+ "01A": {
+  "rotate_deg": -134.8,
+  "flip": false,
+  "reason": "glaive drawn horizontally, spearhead on the right",
+  "tip_dir_deg": -0.2,
+  "pca_deg": -0.2,
+  "pca_elong": 9.6,
+  "tip": [
+   2,
+   2
+  ]
+ },
+ "01B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "symmetric crystal drop: no clear pointing end",
+  "tip": [
+   9,
+   14
+  ]
+ },
+ "01C": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "tip (or business end) already at the upper-left",
+  "tip": [
+   8,
+   10
+  ]
+ },
+ "02A": {
+  "rotate_deg": -135.0,
+  "flip": false,
+  "reason": "plume blade, feathers left, point right",
+  "tip_dir_deg": 0.0,
+  "pca_deg": 0.0,
+  "pca_elong": 10.1,
+  "tip": [
+   2,
+   2
+  ]
+ },
+ "02B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "mascot or round emblem: no pointing end, left as drawn",
+  "tip": [
+   1,
+   10
+  ]
+ },
+ "02C": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "tip (or business end) already at the upper-left",
+  "tip": [
+   12,
+   9
+  ]
+ },
+ "03A": {
+  "rotate_deg": 48.3,
+  "flip": false,
+  "reason": "dagger, blade point on the left, hilt stub right",
+  "tip_dir_deg": 176.7,
+  "pca_deg": 176.7,
+  "pca_elong": 3.9,
+  "tip": [
+   2,
+   2
+  ]
+ },
+ "03B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "mascot or round emblem: no pointing end, left as drawn",
+  "tip": [
+   6,
+   6
+  ]
+ },
+ "03C": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "round reticle with a short handle: no clear pointing end",
+  "tip": [
+   14,
+   12
+  ]
+ },
+ "04A": {
+  "rotate_deg": 45.0,
+  "flip": false,
+  "reason": "red blade, cream point on the left, tail right",
+  "tip_dir_deg": 180.0,
+  "pca_deg": 180.0,
+  "pca_elong": 6.4,
+  "tip": [
+   2,
+   2
+  ]
+ },
+ "04B": {
+  "rotate_deg": -163.9,
+  "flip": false,
+  "reason": "comet: head (business end) lower-right, flame tail up-left; head swung to the tip",
+  "tip_dir_deg": 28.9,
+  "pca_deg": 28.9,
+  "pca_elong": 4.6,
+  "tip": [
+   3,
+   3
+  ]
+ },
+ "04C": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "tip (or business end) already at the upper-left",
+  "tip": [
+   10,
+   12
+  ]
+ },
+ "05A": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "tip (or business end) already at the upper-left",
+  "tip": [
+   1,
+   2
+  ]
+ },
+ "05B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "mascot or round emblem: no pointing end, left as drawn",
+  "tip": [
+   3,
+   1
+  ]
+ },
+ "05C": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "tip (or business end) already at the upper-left",
+  "tip": [
+   5,
+   1
+  ]
+ },
+ "06A": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "tip (or business end) already at the upper-left",
+  "tip": [
+   1,
+   3
+  ]
+ },
+ "06B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "mascot or round emblem: no pointing end, left as drawn",
+  "tip": [
+   2,
+   2
+  ]
+ },
+ "06C": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "tip (or business end) already at the upper-left",
+  "tip": [
+   4,
+   2
+  ]
+ },
+ "07A": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "tip (or business end) already at the upper-left",
+  "tip": [
+   1,
+   4
+  ]
+ },
+ "07B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "mascot or round emblem: no pointing end, left as drawn",
+  "tip": [
+   2,
+   3
+  ]
+ },
+ "07C": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "tip (or business end) already at the upper-left",
+  "tip": [
+   6,
+   6
+  ]
+ },
+ "08A": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "tip (or business end) already at the upper-left",
+  "tip": [
+   8,
+   10
+  ]
+ },
+ "08B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "mascot or round emblem: no pointing end, left as drawn",
+  "tip": [
+   11,
+   10
+  ]
+ },
+ "08C": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "tip (or business end) already at the upper-left",
+  "tip": [
+   12,
+   11
+  ]
+ },
+ "09A": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "gnome hat tip already at the upper-left",
+  "tip": [
+   8,
+   10
+  ]
+ },
+ "09B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "mascot or round emblem: no pointing end, left as drawn",
+  "tip": [
+   13,
+   13
+  ]
+ },
+ "09C": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "tip (or business end) already at the upper-left",
+  "tip": [
+   14,
+   11
+  ]
+ },
+ "10A": {
+  "rotate_deg": -44.3,
+  "flip": false,
+  "reason": "upright ornament, point up",
+  "tip_dir_deg": -90.7,
+  "pca_deg": -90.7,
+  "pca_elong": 1.9,
+  "tip": [
+   3,
+   3
+  ]
+ },
+ "10B": {
+  "rotate_deg": 175.0,
+  "flip": false,
+  "reason": "orb on a wand, cyan crystal tip lower-right",
+  "tip_dir_deg": 50.0,
+  "pca_deg": 50.0,
+  "pca_elong": 2.1,
+  "tip": [
+   2,
+   2
+  ]
+ },
+ "10C": {
+  "rotate_deg": -135.3,
+  "flip": false,
+  "reason": "arrowhead pointing right",
+  "tip_dir_deg": 0.3,
+  "pca_deg": 0.3,
+  "pca_elong": 2.8,
+  "tip": [
+   3,
+   3
+  ]
+ },
+ "11A": {
+  "rotate_deg": -44.7,
+  "flip": false,
+  "reason": "upright dagger, point up",
+  "tip_dir_deg": -90.3,
+  "pca_deg": -90.3,
+  "pca_elong": 6.0,
+  "tip": [
+   3,
+   3
+  ]
+ },
+ "11B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "mascot or round emblem: no pointing end, left as drawn",
+  "tip": [
+   7,
+   8
+  ]
+ },
+ "11C": {
+  "rotate_deg": -136.5,
+  "flip": false,
+  "reason": "flame-trailed head, point right",
+  "tip_dir_deg": 1.5,
+  "pca_deg": 1.5,
+  "pca_elong": 3.5,
+  "tip": [
+   3,
+   3
+  ]
+ },
+ "12A": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "upright mascot figure: no pointing end",
+  "tip": [
+   10,
+   4
+  ]
+ },
+ "12B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "mascot or round emblem: no pointing end, left as drawn",
+  "tip": [
+   8,
+   10
+  ]
+ },
+ "12C": {
+  "rotate_deg": -135.0,
+  "flip": false,
+  "reason": "arrowhead pointing right",
+  "tip_dir_deg": 0.0,
+  "pca_deg": 0.0,
+  "pca_elong": 1.8,
+  "tip": [
+   2,
+   2
+  ]
+ },
+ "13A": {
+  "rotate_deg": -135.8,
+  "flip": false,
+  "reason": "green blade, point right",
+  "tip_dir_deg": 0.8,
+  "pca_deg": 0.8,
+  "pca_elong": 21.1,
+  "tip": [
+   3,
+   3
+  ]
+ },
+ "13B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "mascot or round emblem: no pointing end, left as drawn",
+  "tip": [
+   14,
+   10
+  ]
+ },
+ "13C": {
+  "rotate_deg": -136.3,
+  "flip": false,
+  "reason": "tapered spike, point right, glow trail left",
+  "tip_dir_deg": 1.3,
+  "pca_deg": 1.3,
+  "pca_elong": 7.0,
+  "tip": [
+   4,
+   4
+  ]
+ },
+ "14A": {
+  "rotate_deg": -135.0,
+  "flip": false,
+  "reason": "staff, point right",
+  "tip_dir_deg": -0.0,
+  "pca_deg": -0.0,
+  "pca_elong": 2.6,
+  "tip": [
+   2,
+   2
+  ]
+ },
+ "14B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "mascot or round emblem: no pointing end, left as drawn",
+  "tip": [
+   12,
+   11
+  ]
+ },
+ "14C": {
+  "rotate_deg": -135.6,
+  "flip": false,
+  "reason": "spear-like relic, point right",
+  "tip_dir_deg": 0.6,
+  "pca_deg": 0.6,
+  "pca_elong": 5.3,
+  "tip": [
+   2,
+   3
+  ]
+ },
+ "15A": {
+  "rotate_deg": -107.3,
+  "flip": false,
+  "reason": "spear, head up-right, shaft down-left",
+  "tip_dir_deg": -27.7,
+  "pca_deg": -27.7,
+  "pca_elong": 18.9,
+  "tip": [
+   2,
+   2
+  ]
+ },
+ "15B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "mascot or round emblem: no pointing end, left as drawn",
+  "tip": [
+   9,
+   11
+  ]
+ },
+ "15C": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "wing with its spike already at the upper-left",
+  "tip": [
+   7,
+   13
+  ]
+ },
+ "16A": {
+  "rotate_deg": -133.0,
+  "flip": false,
+  "reason": "jewelled scepter, spike on the right",
+  "tip_dir_deg": -2.0,
+  "pca_deg": -2.0,
+  "pca_elong": 5.9,
+  "tip": [
+   2,
+   2
+  ]
+ },
+ "16B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "mascot or round emblem: no pointing end, left as drawn",
+  "tip": [
+   10,
+   9
+  ]
+ },
+ "16C": {
+  "rotate_deg": -136.0,
+  "flip": false,
+  "reason": "wand with ringed head on the right (head is the business end)",
+  "tip_dir_deg": 1.0,
+  "pca_deg": 1.0,
+  "pca_elong": 10.7,
+  "tip": [
+   5,
+   5
+  ]
+ },
+ "17A": {
+  "rotate_deg": -135.9,
+  "flip": false,
+  "reason": "spear, red pommel left, blade right",
+  "tip_dir_deg": 0.9,
+  "pca_deg": 0.9,
+  "pca_elong": 11.8,
+  "tip": [
+   3,
+   2
+  ]
+ },
+ "17B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "mascot or round emblem: no pointing end, left as drawn",
+  "tip": [
+   11,
+   12
+  ]
+ },
+ "17C": {
+  "rotate_deg": -134.8,
+  "flip": false,
+  "reason": "dark blade, point right",
+  "tip_dir_deg": -0.2,
+  "pca_deg": -0.2,
+  "pca_elong": 9.7,
+  "tip": [
+   4,
+   2
+  ]
+ },
+ "18A": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "bolt point already at the upper-left (pokeball companion)",
+  "tip": [
+   7,
+   10
+  ]
+ },
+ "18B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "bolt point already at the upper-left (pokeball companion)",
+  "tip": [
+   13,
+   12
+  ]
+ },
+ "18C": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "bolt point already at the upper-left (pokeball companion)",
+  "tip": [
+   15,
+   12
+  ]
+ },
+ "19A": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "Gengar mascot with companion: no pointing end",
+  "tip": [
+   6,
+   12
+  ]
+ },
+ "19B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "mascot or round emblem: no pointing end, left as drawn",
+  "tip": [
+   11,
+   13
+  ]
+ },
+ "19C": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "Gengar mascot with companion: no pointing end",
+  "tip": [
+   13,
+   12
+  ]
+ },
+ "20A": {
+  "rotate_deg": -119.5,
+  "flip": false,
+  "reason": "pointing glove, finger right (donut companion stays)",
+  "tip_dir_deg": -15.5,
+  "pca_deg": -15.5,
+  "pca_elong": 1.9,
+  "split_x": 13,
+  "tip": [
+   1,
+   11
+  ]
+ },
+ "20B": {
+  "rotate_deg": -116.2,
+  "flip": false,
+  "reason": "pointing glove, finger right-up (donut companion stays)",
+  "tip_dir_deg": -18.8,
+  "pca_deg": -18.8,
+  "pca_elong": 2.3,
+  "split_x": 13,
+  "tip": [
+   2,
+   10
+  ]
+ },
+ "20C": {
+  "rotate_deg": -117.8,
+  "flip": false,
+  "reason": "pointing glove, finger right (donut companion stays)",
+  "tip_dir_deg": -17.2,
+  "pca_deg": -17.2,
+  "pca_elong": 2.1,
+  "split_x": 13,
+  "tip": [
+   3,
+   11
+  ]
+ },
+ "21A": {
+  "rotate_deg": -95.4,
+  "flip": false,
+  "reason": "green rod, tip upper-right (fish companion stays)",
+  "tip_dir_deg": -39.6,
+  "pca_deg": -39.6,
+  "pca_elong": 6.3,
+  "split_x": 14,
+  "tip": [
+   1,
+   11
+  ]
+ },
+ "21B": {
+  "rotate_deg": -98.4,
+  "flip": false,
+  "reason": "green arrow-rod, tip upper-right (fish companion stays)",
+  "tip_dir_deg": -36.6,
+  "pca_deg": -36.6,
+  "pca_elong": 3.8,
+  "split_x": 14,
+  "tip": [
+   4,
+   11
+  ]
+ },
+ "21C": {
+  "rotate_deg": -92.3,
+  "flip": false,
+  "reason": "slim green rod, tip upper-right (fish companion stays)",
+  "tip_dir_deg": -42.7,
+  "pca_deg": -42.7,
+  "pca_elong": 19.1,
+  "split_x": 14,
+  "tip": [
+   5,
+   11
+  ]
+ },
+ "22A": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "bow and wing: no pointing end",
+  "tip": [
+   0,
+   13
+  ]
+ },
+ "22B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "mascot or round emblem: no pointing end, left as drawn",
+  "tip": [
+   3,
+   13
+  ]
+ },
+ "22C": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "bow and wing: no pointing end",
+  "tip": [
+   6,
+   13
+  ]
+ },
+ "23A": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "radish pair: no pointing end",
+  "tip": [
+   2,
+   14
+  ]
+ },
+ "23B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "mascot or round emblem: no pointing end, left as drawn",
+  "tip": [
+   6,
+   15
+  ]
+ },
+ "23C": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "radish pair: no pointing end",
+  "tip": [
+   8,
+   15
+  ]
+ },
+ "24A": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "paw and hat: no pointing end",
+  "tip": [
+   2,
+   14
+  ]
+ },
+ "24B": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "mascot or round emblem: no pointing end, left as drawn",
+  "tip": [
+   5,
+   15
+  ]
+ },
+ "24C": {
+  "rotate_deg": 0,
+  "flip": false,
+  "reason": "paw and hat: no pointing end",
+  "tip": [
+   9,
+   15
+  ]
+ }
+}
