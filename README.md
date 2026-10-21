@@ -1,8 +1,26 @@
 # Cursor Studio
 
-**[Live demo](https://beebopcat.github.io/cursor-studio/)** - hover any card to try that cursor in your browser.
+[**▶ Live demo: beebopcat.github.io/cursor-studio**](https://beebopcat.github.io/cursor-studio/) - hover any card to try that cursor in your browser.
+
+[![Cursor Studio page with the Animated preview toggle, a live test pointer and the FFXIV Crystal Dawn set cards.](docs/media/01.webp)](https://beebopcat.github.io/cursor-studio/)
 
 **24 Windows 11 cursor sets x 4 styles** - static `.cur` and animated `.ani`, a browser selector, a dark-mode installer, and the procedural generator that renders all 3,264 cursor files.
+
+## Screenshots and video
+
+| | |
+|:--:|:--:|
+| ![Cursor Studio page with the Animated preview toggle, a live test pointer and the FFXIV Crystal Dawn set cards.](docs/media/01.webp) | ![Crystal Dawn set cards in the Animated preview, each showing 17 pointer thumbnails in styles A, B, C and C2.](docs/media/02.webp) |
+| <sub>Cursor Studio page with the Animated preview toggle, a live test pointer and the FFXIV Crystal Dawn set cards.</sub> | <sub>Crystal Dawn set cards in the Animated preview, each showing 17 pointer thumbnails in styles A, B, C and C2.</sub> |
+| ![Filtered to FFXIV, showing the Chocobo Caravan set cards with cursor thumbnails under the set heading.](docs/media/03.webp) | ![Scrolled down to FFXIV set 03 Void and Moon and set 04 A Realm Reborn, with their cursor thumbnails.](docs/media/04.webp) |
+| <sub>Filtered to FFXIV, showing the Chocobo Caravan set cards with cursor thumbnails under the set heading.</sub> | <sub>Scrolled down to FFXIV set 03 Void and Moon and set 04 A Realm Reborn, with their cursor thumbnails.</sub> |
+
+### Video
+
+[![Cursor Studio page with the Animated preview toggle, a live test pointer and the FFXIV Crystal Dawn set cards.](docs/media/poster.webp)](docs/media/clip.mp4)
+
+*Click the poster to open the short screen recording (docs/media/clip.mp4).*
+
 
 Every set comes in four styles:
 - **A**: relic or weapon.
