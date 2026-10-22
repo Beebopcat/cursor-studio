@@ -67,3 +67,7 @@ Independent, personal-use fan project. All artwork is original and procedurally 
 
 ## Credits
 Built by Casey Shingledecker with Claude Code. Set roster and A/B/C style concepts adapted from a Gemini design proposal. Original designs by Gemini (Argon) from the owner's design session (the GA, GB and GC styles).
+
+## License
+
+Copyright (c) 2026 Casey Shingledecker. All rights reserved. Source-available for viewing and for personal, non-commercial running only; this is not open source. See [LICENSE](LICENSE). See also [NOTICE.md](NOTICE.md). Other people's material keeps its own license.
